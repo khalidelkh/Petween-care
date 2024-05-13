@@ -13,7 +13,7 @@
 
 	      <!-- * ---- Newsletter & footer ---- * -->
 		  <section
-        class="self-stretch z-10 px-5 flex flex-col items-center justify-start gap-[65px]  bg-cover bg-no-repeat bg-[top] text-[22px] text-tertialy" style="background-image: url('http://petween-care.test/wp-content/themes/petween-care/assets/images/bgs/bg-footer.png');"
+        class="self-stretch z-10 px-5 flex flex-col items-center justify-start gap-[65px]  bg-cover bg-no-repeat bg-[top] text-[22px] text-tertialy" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-footer.png');"
       >
         <!-- * ----- Newsletter ----- * -->
         <div
