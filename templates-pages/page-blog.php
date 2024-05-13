@@ -14,7 +14,7 @@ $args = array(
 $all_posts = new WP_Query($args);
 ?>
 <!-- * ----- ACTUALITÉS ----- * -->
-<section class="self-stretch h-[396px] flex flex-col items-center justify-center gap-[4px]  bg-cover bg-no-repeat bg-[top] text-left text-53xl-1 text-tertialy font-ubuntu" style="background-image: url('http://petween-care.test/wp-content/themes/petween-care/assets/images/bgs/bg-news.png');">
+<section class="self-stretch h-[396px] flex flex-col items-center justify-center gap-[4px]  bg-cover bg-no-repeat bg-[top] text-left text-53xl-1 text-tertialy font-ubuntu" style="background-image: url('http://petween-care.test/wp-content/themes/petween-care-theme/assets/images/bgs/bg-news.png');">
   <h1 class="m-0 relative text-41xl sm:text-inherit tracking-[-1.44px] leading-[86.48px] font-medium font-inherit mix-blend-normal">
     ACTUALITÉS
   </h1>

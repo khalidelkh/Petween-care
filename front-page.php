@@ -7,7 +7,7 @@ get_header();
         class="self-stretch min-h-[832px] h-full flex flex-col items-center justify-center text-lg text-orange"
       >
         <div
-          class="w-full px-5 h-full min-h-[775px] pt-[100px] lg:pt-[190px] box-border bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/header@3x.png');"
+          class="w-full px-5 h-full min-h-[775px] pt-[100px] lg:pt-[190px] box-border bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/header@3x.png');"
         >
           <div
             class="flex flex-col max-w-6xl mx-auto items-start justify-start gap-[32px]"
@@ -43,7 +43,7 @@ get_header();
           class="self-stretch px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto items-center justify-center gap-[19px] -mt-44 lg:mt-[-94px] text-5xl text-secondary font-ubuntu"
         >
           <div
-            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paw-primary.png');"
+            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-primary.png');"
           >
             <img
               class="w-[91px] rounded-81xl h-[91px] z-[1]"
@@ -68,7 +68,7 @@ get_header();
           </div>
 
           <div
-            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-white bg-cover bg-no-repeat" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paw-secondary.png');"
+            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-white bg-cover bg-no-repeat" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-secondary.png');"
           >
             <img
               class="w-[91px] rounded-81xl h-[91px] z-[1]"
@@ -93,7 +93,7 @@ get_header();
           </div>
 
           <div
-            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paw-primary.png');"
+            class="max-w-[385px] shadow-md rounded-tl-xl rounded-tr-none rounded-b-xl py-7 px-10 flex flex-row items-center justify-center gap-[20px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-primary.png');"
           >
             <img
               class="w-[91px] rounded-81xl h-[91px] z-[1]"
@@ -261,7 +261,7 @@ get_header();
             class="flex flex-row flex-wrap items-start justify-center gap-[30px]"
           >
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary.png');"
+              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -290,7 +290,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top] text-tertialy" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary-2.png');"
+              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top] text-tertialy" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png');"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -319,7 +319,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary.png');"
+              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -348,7 +348,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary.png');"
+              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -581,7 +581,7 @@ get_header();
       </section>
             <!-- * ---- Connectez-vous à votre espace privé ---- * -->
             <section
-        class="mt-28 self-stretch min-h-[617px] py-10 px-5 flex flex-col items-start justify-center box-border relative bg-cover bg-no-repeat bg-[top] text-[60px] text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/bgs/bg-paw-xl.png');"
+        class="mt-28 self-stretch min-h-[617px] py-10 px-5 flex flex-col items-start justify-center box-border relative bg-cover bg-no-repeat bg-[top] text-[60px] text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-xl.png');"
       >
         <div
           class=" max-w-6xl flex gap-y-10 flex-col lg:flex-row items-center mx-auto w-full"

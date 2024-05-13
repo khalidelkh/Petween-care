@@ -9,7 +9,7 @@ $annonces = get_posts($args);
 ?>
 
 <section
-        class="self-stretch px-5 pb-24 flex flex-col items-center justify-start pt-[74px] box-border gap-[125px]  bg-cover bg-no-repeat bg-[top] text-center font-myriad-pro" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care/assets/images/annonce@3x.png');"
+        class="self-stretch px-5 pb-24 flex flex-col items-center justify-start pt-[74px] box-border gap-[125px]  bg-cover bg-no-repeat bg-[top] text-center font-myriad-pro" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/annonce@3x.png');"
       >
      
         <div class="flex flex-col items-center justify-start gap-[86px]">
