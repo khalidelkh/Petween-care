@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  a {
+    @apply no-underline text-inherit text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-normal m-0;
+  }
+
+  ul {
+    @apply list-none m-0 p-0;
+  }
+
+  button {
+    @apply bg-transparent border-none cursor-pointer;
+  }
+  .Petween-care-pagination .page-numbers {
+    @apply w-5 h-5 odd:bg-secondary even:bg-pet-primary rounded-full text-opacity-0;
+  }
+ 
+  .Petween-care-pagination .page-numbers.current {
+    @apply bg-pet-primary text-opacity-0;
+  }
+}
