@@ -67,7 +67,7 @@ $all_annonce_posts = new WP_Query($args);
                     </h3>
                   </div>
                   <p class="m-0 max-w-80 relative line-clamp-2 leading-[28.14px]">
-                    <?= the_content(); ?>
+                    <?= wp_strip_all_tags(get_the_content()); ?>
                   </p>
                   <span class="w-[108.2px] rounded leading-[18.1px] bg-whitesmoke-100 h-[28.1px] flex flex-col items-center justify-center">
                     <?= $title ?>
