@@ -34,7 +34,7 @@
          derniers articles
        </h2>
      </div>
-     <a href="/annonce" class="w-[209px] cursor-pointer self-end sm:self-auto rounded-81xl bg-pet-primary h-[58px] flex flex-col items-center justify-center text-base !text-white font-dm-sans">
+     <a href="/blog" class="w-[209px] cursor-pointer self-end sm:self-auto rounded-81xl bg-pet-primary h-[58px] flex flex-col items-center justify-center text-base !text-white font-dm-sans">
        <span class="relative leading-[16px] font-medium mix-blend-normal">
          Nos Articles
        </span>
