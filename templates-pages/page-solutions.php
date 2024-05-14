@@ -539,7 +539,9 @@ get_header();
         </div>
       </section>
             <!-- * ---- Nos derniers articles ---- * -->
-            <section
+            <?php get_template_part('templates-sections/section-articles'); ?> 
+           
+             <!-- <section
         class="self-stretch px-5 pb-24 flex flex-col items-center justify-start pt-[110px] box-border relative gap-[48px] bg-cover bg-no-repeat bg-[top] font-myriad-pro" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-blog.png');"
       >
         <div
@@ -575,7 +577,8 @@ get_header();
             </span>
           </button>
         </div>
-
+          
+      
         <div
           class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start justify-start gap-[30px] z-[1] text-gray-200 font-lato"
         >
@@ -765,7 +768,7 @@ get_header();
           src="<?= get_template_directory_uri() ?>/assets/images/cat-transparent.png"
         />
       </section>
-
+  -->
 
 
 <?php
