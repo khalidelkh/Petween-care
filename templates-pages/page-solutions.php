@@ -424,6 +424,7 @@ get_header();
           </div>
 
           <!-- * FAQs * -->
+          
           <div
             class="flex flex-col lg:flex-row items-start justify-between gap-14 text-left"
           >
@@ -472,144 +473,8 @@ get_header();
             </div>
 
             <!-- * FAQ * -->
-            <div
-              class="flex flex-col items-start justify-start gap-[20px] text-lg text-secondary font-ubuntu"
-            >
-              <div
-                class="faq-button overflow-hidden max-w-[570px] py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen"
-              >
-                <div
-                  class="flex flex-row items-center justify-between w-full gap-[10px]"
-                >
-                  <h6
-                    class="relative text-inherit tracking-[-0.36px] leading-[21.6px] font-medium mix-blend-normal"
-                  >
-                    Petween Care est-il vraiment gratuit ?
-                  </h6>
-
-                  <div
-                    style="
-                      background-color: #385170;
-                      -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat
-                        center;
-                      mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center;
-                    "
-                    class="faq-icon w-3 h-3"
-                  ></div>
-                </div>
-
-                <p
-                  style="max-height: 0px; overflow: hidden"
-                  class="faq-answer max-w-[491px] transition-all duration-200 w-full relative text-mini leading-[27px] font-dm-sans text-gray-100 mix-blend-normal"
-                >
-                  Oui. L’application Petween Care est issue d’un besoin
-                  personnel et c’est avec cette motivation qu’elle est partagée.
-                  Vous pouvez ouvrir ou supprimer votre compte à tout moment
-                  sans aucun frais ni carte bancaire.
-                </p>
-              </div>
-
-              <div
-                class="faq-button overflow-hidden max-w-[570px] py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen"
-              >
-                <div
-                  class="flex flex-row items-center justify-between w-full gap-[10px]"
-                >
-                  <h6
-                    class="relative text-inherit tracking-[-0.36px] leading-[21.6px] font-medium mix-blend-normal"
-                  >
-                    Petween Care est-il vraiment gratuit ?
-                  </h6>
-
-                  <div
-                    style="
-                      background-color: #385170;
-                      -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat
-                        center;
-                      mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center;
-                    "
-                    class="faq-icon w-3 h-3"
-                  ></div>
-                </div>
-
-                <p
-                  style="max-height: 0px; overflow: hidden"
-                  class="faq-answer max-w-[491px] transition-all duration-200 w-full relative text-mini leading-[27px] font-dm-sans text-gray-100 mix-blend-normal"
-                >
-                  Oui. L’application Petween Care est issue d’un besoin
-                  personnel et c’est avec cette motivation qu’elle est partagée.
-                  Vous pouvez ouvrir ou supprimer votre compte à tout moment
-                  sans aucun frais ni carte bancaire.
-                </p>
-              </div>
-
-              <div
-                class="faq-button overflow-hidden max-w-[570px] py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen"
-              >
-                <div
-                  class="flex flex-row items-center justify-between w-full gap-[10px]"
-                >
-                  <h6
-                    class="relative text-inherit tracking-[-0.36px] leading-[21.6px] font-medium mix-blend-normal"
-                  >
-                    Petween Care est-il vraiment gratuit ?
-                  </h6>
-
-                  <div
-                    style="
-                      background-color: #385170;
-                      -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat
-                        center;
-                      mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center;
-                    "
-                    class="faq-icon w-3 h-3"
-                  ></div>
-                </div>
-
-                <p
-                  style="max-height: 0px; overflow: hidden"
-                  class="faq-answer max-w-[491px] transition-all duration-200 w-full relative text-mini leading-[27px] font-dm-sans text-gray-100 mix-blend-normal"
-                >
-                  Oui. L’application Petween Care est issue d’un besoin
-                  personnel et c’est avec cette motivation qu’elle est partagée.
-                  Vous pouvez ouvrir ou supprimer votre compte à tout moment
-                  sans aucun frais ni carte bancaire.
-                </p>
-              </div>
-
-              <div
-                class="faq-button overflow-hidden max-w-[570px] py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen"
-              >
-                <div
-                  class="flex flex-row items-center justify-between w-full gap-[10px]"
-                >
-                  <h6
-                    class="relative text-inherit tracking-[-0.36px] leading-[21.6px] font-medium mix-blend-normal"
-                  >
-                    Petween Care est-il vraiment gratuit ?
-                  </h6>
-
-                  <div
-                    style="
-                      background-color: #385170;
-                      -webkit-mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat
-                        center;
-                      mask: url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center;
-                    "
-                    class="faq-icon w-3 h-3"
-                  ></div>
-                </div>
-
-                <p
-                  style="max-height: 0px; overflow: hidden"
-                  class="faq-answer max-w-[491px] transition-all duration-200 w-full relative text-mini leading-[27px] font-dm-sans text-gray-100 mix-blend-normal"
-                >
-                  Oui. L’application Petween Care est issue d’un besoin
-                  personnel et c’est avec cette motivation qu’elle est partagée.
-                  Vous pouvez ouvrir ou supprimer votre compte à tout moment
-                  sans aucun frais ni carte bancaire.
-                </p>
-              </div>
+            <?php get_template_part('templates-sections/section-faq'); ?>
+            
             </div>
           </div>
         </div>

@@ -178,7 +178,7 @@
                 'theme_location' => 'header-menu',
                 'menu_id' => 'header-menu',
                 'container' => 'ul',
-                'menu_class' => 'list-none m-0 p-0 flex flex-col items-center flex-wrap justify-center gap-[36px] text-center text-base !text-white font-barlow',
+                'menu_class' => 'header-menu-mobile list-none m-0 p-0 flex flex-col items-center flex-wrap justify-center gap-[36px] text-center text-base !text-white font-barlow',
               ));
               ?>
                 <button

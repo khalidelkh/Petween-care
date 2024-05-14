@@ -311,3 +311,51 @@ function register_Annonce_post_type()
 }
 add_action('init', 'register_Annonce_post_type');
 
+
+/**
+ * Register Custom Post Type "Faqs"
+ *
+ * @return void
+ */
+function register_Faq_post_type()
+{
+	$labels = array(
+		'name'               => _x('Faqs', 'Post Type General Name', 'Petween-care'),
+		'singular_name'      => _x('Faq', 'Post Type Singular Name', 'Petween-care'),
+		'menu_name'          => __('Faqs', 'Petween-care'),
+		'parent_item_colon'  => __('Parent Faq:', 'Petween-care'),
+		'all_items'          => __('All Faqs', 'Petween-care'),
+		'view_item'          => __('View Faq', 'Petween-care'),
+		'add_new_item'       => __('Add New Faq', 'Petween-care'),
+		'add_new'            => __('Add New', 'Petween-care'),
+		'edit_item'          => __('Edit Faq', 'Petween-care'),
+		'update_item'        => __('Update Faq', 'Petween-care'),
+		'search_items'       => __('Search Faqs', 'Petween-care'),
+		'not_found'          => __('Not Found', 'Petween-care'),
+		'not_found_in_trash' => __('Not Found in Trash', 'Petween-care'),
+	);
+	$args = array(
+		'label'               => __('Faq', 'Petween-care'),
+		'description'         => __('Faqs', 'Petween-care'),
+		'labels'              => $labels,
+		'supports'            => array('title', 'editor'),
+		'hierarchical'        => false,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'menu_icon'           => 'dashicons-media-document',
+		'menu_position'       => 5,
+		'show_in_nav_menus'   => true,
+		'publicly_queryable'  => true,
+		'exclude_from_search' => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite'             => array('slug' => 'Faqs'),
+		'capability_type'     => 'post',
+	);
+	register_post_type('Faq', $args);
+}
+add_action('init', 'register_Faq_post_type');
+
+

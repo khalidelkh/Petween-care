@@ -22,7 +22,8 @@ faqButtons.forEach((button) => {
       const icon = faqButton.querySelector(".faq-icon");
 
       icon.style.mask = "url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center";
-      icon.style.mask["-webkit-mask"] ="url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center";
+      icon.style.mask["-webkit-mask"] =
+      "url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center";
       icon.style.backgroundColor = "#385170";
 
       faqButton.style.color = "#385170";
@@ -36,7 +37,8 @@ faqButtons.forEach((button) => {
     button.style.color = "#f99d0b";
     const icon = button.querySelector(".faq-icon");
     icon.style.mask = "url(<?= get_template_directory_uri() ?>/assets/images/icons/minus-icon.svg) no-repeat center";
-    icon.style.mask["-webkit-mask"] ="url(<?= get_template_directory_uri() ?>/assets/images/icons/minus-icon.svg) no-repeat center";
+    icon.style.mask["-webkit-mask"] =
+    "url(<?= get_template_directory_uri() ?>/assets/images/icons/minus-icon.svg) no-repeat center";
     icon.style.backgroundColor = "#f99d0b";
 
     answer.style.opacity = "1";
