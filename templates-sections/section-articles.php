@@ -123,7 +123,7 @@
      <?php endforeach; ?>
 
 
-     <img class="w-[281px] hidden xl:block !m-[0] absolute top-[681px] left-[1680px] h-[227px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/dog-transparent.png" />
+     
 
      <img class="w-52 hidden z-0 xl:block !m-[0] absolute top-[651px] left-[47px] h-[189px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/cat-transparent.png" />
  </section>
