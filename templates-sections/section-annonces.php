@@ -57,7 +57,7 @@ $annonces = get_posts($args);
                 $date = get_field('date', $annonce_id);
         ?>
             <div
-              class="max-w-[364.7px] h-[524.6px] flex flex-col items-center justify-start pt-3.5 px-3 shadow-md rounded-xl pb-0 box-border gap-[28px] bg-[url('<?= get_template_directory_uri() ?>/assets/images/bgs/bg-paw-lg.png')] bg-cover bg-no-repeat bg-[top]"
+              class="max-w-[364.7px] h-[524.6px] flex flex-col items-center justify-start pt-3.5 px-3 shadow-md rounded-xl pb-0 box-border gap-[28px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-lg.png');"
             >
               <img
                 class="max-w-[346.2px] h-[234.8px] w-full rounded-xl object-cover"

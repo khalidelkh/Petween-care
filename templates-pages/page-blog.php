@@ -108,7 +108,7 @@ $all_posts = new WP_Query($args);
         ));
 
         if (is_array($pagination_links)) : ?>
-          <div class="Petween-care-pagination mt-10 flex flex-row items-start justify-center gap-[14px] ml-[500px]">
+          <div class="Petween-care-pagination mt-10 flex flex-row items-start justify-center gap-[14px] ml-[500px] !m-0 w-full">
             <?php
             foreach ($pagination_links as $link) {
               // Add leading zeros to numbers

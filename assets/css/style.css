@@ -545,6 +545,10 @@ button{
   margin: 12rem;
 }
 
+.\!m-0{
+  margin: 0px !important;
+}
+
 .mx-4{
   margin-left: 1rem;
   margin-right: 1rem;
