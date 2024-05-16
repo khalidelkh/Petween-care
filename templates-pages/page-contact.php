@@ -46,7 +46,8 @@ get_header();
             N'hésitez pas à nous contactez
           </h2>
         </div>
-        <form
+        <?= do_shortcode('[contact-form-7 id="32d3d71" title="Contact form"]') ?>
+        <!-- <form
           class="flex w-full flex-col items-center justify-start gap-[24px] z-[2] text-left text-gray-200 font-dm-sans"
         >
           <div
@@ -84,9 +85,11 @@ get_header();
           >
             ENVOYEZ
           </button>
-        </form>
+        </form> -->
   
-            </section>
+      </section>
+    
+
 
 <?php
 get_footer();

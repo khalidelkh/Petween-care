@@ -131,6 +131,7 @@ $all_posts = new WP_Query($args);
   <img class="w-[883px] !m-[0] absolute -bottom-[40%] right-0 h-[1443px] object-cover z-[0]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/paw-large.png" />
 </section>
 
+
 <?php
 get_footer();
 ?>

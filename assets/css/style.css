@@ -361,10 +361,6 @@ button{
   left: 1493px;
 }
 
-.left-\[1680px\]{
-  left: 1680px;
-}
-
 .left-\[47px\]{
   left: 47px;
 }
@@ -429,10 +425,6 @@ button{
   top: 67px;
 }
 
-.top-\[681px\]{
-  top: 681px;
-}
-
 .isolate{
   isolation: isolate;
 }
@@ -479,10 +471,6 @@ button{
 
 .z-\[9\]{
   z-index: 9;
-}
-
-.z-30{
-  z-index: 30;
 }
 
 .float-start{
@@ -859,10 +847,6 @@ button{
 
 .h-\[24px\]{
   height: 24px;
-}
-
-.h-\[250px\]{
-  height: 250px;
 }
 
 .h-\[26px\]{
@@ -4170,6 +4154,25 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner.your-submit-field {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color:#fcb900;
+  width: 164px;
+  font-size: 18px !important;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  color: #fcb900;
+  border-radius: 40px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 640px){

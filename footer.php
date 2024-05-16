@@ -167,7 +167,7 @@
           </div>
         </footer>
       </section>
-    </div>
+   
 
 <?php wp_footer(); ?>
 
