@@ -33,7 +33,7 @@
               et inscrivez-vous à la newsletter
             </h4>
           </div>
-          <form
+           <!-- <form
             class="border-b w-full max-w-sm border-solid border-white/50 pb-1 flex flex-1 flex-row items-center justify-start"
           >
             <input
@@ -48,7 +48,9 @@
                 src="<?= get_template_directory_uri() ?>/assets/images/icons/send-icon.svg"
               />
             </button>
-          </form>
+          </form>  -->
+           <?= do_shortcode('[mc4wp_form id=52]') ?> 
+        
         </div>
 
         <!-- * ---- Footer ---- * -->

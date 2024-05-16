@@ -45,21 +45,3 @@ body {
  
 }
 
-input.wpcf7-form-control.wpcf7-submit.has-spinner.your-submit-field {
-  cursor: pointer;
-  border: none;
-  padding: 0;
-  background-color:#fcb900; 
-  width: 164px;
-  font-size: 18px !important; 
-  line-height: 16px;
-  font-weight: 500; 
-  font-family: 'DM Sans', sans-serif; 
-  color: #fcb900; 
-  border-radius: 40px; 
-  height: 54px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
