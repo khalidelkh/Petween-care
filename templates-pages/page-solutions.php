@@ -91,7 +91,7 @@ get_header();
 
         <div class="max-w-[348px] px-4 w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] shadow-xl rounded-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
           <div class="relative tracking-[-1px] mix-blend-normal">
-            <p class="m-0 font-bold">180</p>
+            <p class="m-0 font-bold ">180</p>
             <p class="m-0 text-xl font-dm-sans">Clients Satisfait</p>
           </div>
           <img class="w-16 h-16 object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/pet-care-icon-sm.svg" />
@@ -109,7 +109,7 @@ get_header();
 
         <div class="max-w-[348px] w-full px-4 min-h-[135px] flex flex-row items-center justify-center gap-[58px] rounded-xl shadow-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
           <div class="relative tracking-[-1px] mix-blend-normal">
-            <p class="font-bold">180</p>
+            <p class="font-bold mb-0">180</p>
             <p class="text-xl font-dm-sans text-gray-200">
               Clients Satisfait
             </p>

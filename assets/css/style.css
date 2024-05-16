@@ -595,8 +595,24 @@ button{
   margin-top: 11rem;
 }
 
+.mt-\[-60px\]{
+  margin-top: -60px;
+}
+
 .mt-\[-74px\]{
   margin-top: -74px;
+}
+
+.mt-\[\]{
+  margin-top: ;
+}
+
+.mt-\[-50px\]{
+  margin-top: -50px;
+}
+
+.mb-0{
+  margin-bottom: 0px;
 }
 
 .box-border{
