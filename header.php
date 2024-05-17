@@ -113,13 +113,13 @@
                 'menu_class' => 'flex list-none flex-row items-start justify-start gap-5 xl:gap-16 2xl:gap-[54px]',
               ));
               ?>
-              <hr class="mt-3 w-px h-10 border-r border-gray-200/20" />
+              <!-- <hr class="mt-3 w-px h-10 border-r border-gray-200/20" /> -->
 
               <div class="flex flex-row items-center justify-start gap-[33px]">
                 <div
                   class="w-6 h-6 flex flex-col items-start justify-start relative"
                 >
-                  <img src="<?= get_template_directory_uri() ?>/assets/images/icons/search-icon.svg" alt="" />
+                  <!-- <img src="<?= get_template_directory_uri() ?>/assets/images/icons/search-icon.svg" alt="" /> -->
                 </div>
                 <button
                   class="cursor-pointer [border:none] py-0 pr-0 pl-1 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
