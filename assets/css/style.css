@@ -3580,6 +3580,11 @@ button{
   letter-spacing: 3.6px;
 }
 
+.\!text-\[\#787878\]{
+  --tw-text-opacity: 1 !important;
+  color: rgb(120 120 120 / var(--tw-text-opacity)) !important;
+}
+
 .\!text-gray-200{
   --tw-text-opacity: 1 !important;
   color: rgb(120 120 120 / var(--tw-text-opacity)) !important;

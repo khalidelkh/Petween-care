@@ -18,7 +18,7 @@ $all_posts = new WP_Query($args);
   <h1 class="m-0 relative text-41xl sm:text-inherit tracking-[-1.44px] leading-[86.48px] font-medium font-inherit mix-blend-normal">
      ACTUALITÉS 
   </h1>
-  <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal">
+  <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans mix-blend-normal">
     <?php if (function_exists('custom_breadcrumbs')) {
           custom_breadcrumbs();
       }

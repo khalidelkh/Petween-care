@@ -12,7 +12,7 @@ get_header();
            Annonces 
         </h1>
         <span
-          class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal"
+          class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans mix-blend-normal"
           ><?php if (function_exists('custom_breadcrumbs')) {
                 custom_breadcrumbs();
               }

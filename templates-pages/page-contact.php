@@ -13,7 +13,7 @@ get_header();
          
         </h1>
         <span
-          class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal"
+          class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans mix-blend-normal"
           ><?php if (function_exists('custom_breadcrumbs')) {
                  custom_breadcrumbs();
              }
@@ -50,47 +50,7 @@ get_header();
             N'hésitez pas à nous contactez
           </h2>
         </div>
-        <?= do_shortcode('[contact-form-7 id="32d3d71" title="Contact form"]') ?>
-        <!-- <form
-          class="flex w-full flex-col items-center justify-start gap-[24px] z-[2] text-left text-gray-200 font-dm-sans"
-        >
-          <div
-            class="grid max-w-xl w-full grid-cols-1 sm:grid-cols-2 gap-[38px]"
-          >
-            <input
-              class="outline-none rounded-3xs bg-seashell h-[58px] py-0 pr-0 pl-[26px] box-border"
-              placeholder="Votre Nom"
-            />
-
-            <input
-              class="outline-none rounded-3xs bg-seashell h-[58px] py-0 pr-0 pl-[26px] box-border"
-              placeholder="Votre Prénom"
-            />
-
-            <input
-              class="outline-none font-lato rounded-3xs bg-seashell h-[58px] py-0 pr-0 pl-[26px] box-border"
-              placeholder="Votre E-mail"
-            />
-
-            <input
-              class="outline-none rounded-3xs bg-seashell h-[58px] py-0 pr-0 pl-[26px] box-border"
-              placeholder="Objet"
-            />
-            <textarea
-              placeholder="Votre message"
-              rows="4"
-              cols="50"
-              class="w-full outline-none sm:col-span-2 rounded-3xs bg-seashell h-[168px] py-5 px-[26px]"
-            >
-            </textarea>
-          </div>
-          <button
-            class="cursor-pointer [border:none] p-0 bg-pet-primary w-[164px] text-base leading-[16px] font-medium font-dm-sans text-tertialy rounded-81xl h-[54px] flex flex-col items-center justify-center"
-          >
-            ENVOYEZ
-          </button>
-        </form> -->
-  
+        <?= do_shortcode('[contact-form-7 id="32d3d71" title="Contact form"]') ?>  
       </section>
     
 
