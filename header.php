@@ -175,8 +175,8 @@
                 'menu_class' => 'header-menu-mobile list-none m-0 p-0 flex flex-col items-center flex-wrap justify-center gap-[36px] text-center text-base !text-white font-barlow',
               ));
               ?>
-                <button
-                  class="cursor-pointer [border:none] py-0 pr-0 pl-1 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
+                <a href="<?= get_theme_mod('conection_link', '') ?>"
+                 class="cursor-pointer [border:none] py-0 pr-0 pl-1 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
                 >
                   <div
                     class="w-[35px] rounded-81xl bg-tertialy h-[35px] flex flex-row items-center justify-center"
@@ -191,7 +191,7 @@
                     class="relative text-sm leading-[24px] font-quicksand text-tertialy text-left mix-blend-normal"
                     >CONECTION</b
                   >
-                </button>
+               </a>
               </div>
             </div>
           </div>
