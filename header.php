@@ -121,7 +121,7 @@
                 >
                   <!-- <img src="<?= get_template_directory_uri() ?>/assets/images/icons/search-icon.svg" alt="" /> -->
                 </div>
-                <button
+                <a href="<?= get_theme_mod('conection_link', '') ?>"
                   class="cursor-pointer [border:none] py-0 pr-0 pl-1 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
                 >
                   <div
@@ -137,7 +137,7 @@
                     class="relative text-sm leading-[24px] font-quicksand text-tertialy text-left mix-blend-normal"
                     >CONECTION</b
                   >
-                </button>
+              </a>
               </div>
             </div>
 
@@ -163,14 +163,8 @@
                   <div
                     class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
                   >
-                    <img src="<?= get_template_directory_uri() ?>/assets/images/icons/search-icon.svg" alt="" />
+                    <!-- <img src="<?= get_template_directory_uri() ?>/assets/images/icons/search-icon.svg" alt="" /> -->
                   </div>
-                  <input
-                    type="text"
-                    id="search-navbar"
-                    class="block font-ubuntu w-full shadow-sm border-0 outline-none p-3 ps-12 placeholder:text-gray-100/70 text-sm text-gray-900 rounded-lg bg-white"
-                    placeholder="Recherche..."
-                  />
                 </div>
 
                 <?php

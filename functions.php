@@ -260,6 +260,22 @@ function Petween_care_customizer_settings($wp_customize)
 		'description' => 'https://twitter.com/yourusername'
 	));
 
+	// Section for Conction link
+	$wp_customize->add_section('Conction_link_section', array(
+		'title'    => __('Conction link', 'Petween-care'),
+		'priority' => 30,
+	));
+	// conection
+	$wp_customize->add_setting('conection_link', array(
+		'default'   => '',
+	));
+
+	$wp_customize->add_control('conection_link', array(
+		'type'     => 'url',
+		'section'  => 'Conction_link_section',
+		'label'    => __('conection', 'Petween-care'),
+	));
+
 }
 add_action('customize_register', 'Petween_care_customizer_settings');
 

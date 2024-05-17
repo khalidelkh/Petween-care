@@ -825,10 +825,6 @@ button{
   height: 1443px;
 }
 
-.h-\[168px\]{
-  height: 168px;
-}
-
 .h-\[177px\]{
   height: 177px;
 }
@@ -915,10 +911,6 @@ button{
 
 .h-\[53px\]{
   height: 53px;
-}
-
-.h-\[54px\]{
-  height: 54px;
 }
 
 .h-\[57\.9px\]{
@@ -1119,10 +1111,6 @@ button{
 
 .w-\[15px\]{
   width: 15px;
-}
-
-.w-\[164px\]{
-  width: 164px;
 }
 
 .w-\[165px\]{
@@ -2748,11 +2736,6 @@ button{
   background-color: rgb(249 157 11 / var(--tw-bg-opacity));
 }
 
-.bg-seashell{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 246 241 / var(--tw-bg-opacity));
-}
-
 .bg-secondary{
   --tw-bg-opacity: 1;
   background-color: rgb(56 81 112 / var(--tw-bg-opacity));
@@ -2981,11 +2964,6 @@ button{
   padding-right: 2rem;
 }
 
-.px-\[26px\]{
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
 .py-0{
   padding-top: 0px;
   padding-bottom: 0px;
@@ -3041,11 +3019,6 @@ button{
   padding-bottom: 1rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-7{
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
@@ -3086,10 +3059,6 @@ button{
 
 .pl-5{
   padding-left: 1.25rem;
-}
-
-.pl-\[26px\]{
-  padding-left: 26px;
 }
 
 .pr-0{
@@ -4288,16 +4257,8 @@ body{
 }
 
 @media (min-width: 640px){
-  .sm\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .sm\:block{
     display: block;
-  }
-
-  .sm\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:flex-row{
