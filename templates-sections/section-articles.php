@@ -12,6 +12,7 @@
       $recent_post = $posts[0];
       $rp_featured_img_url = get_the_post_thumbnail_url($recent_post->ID, 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/blog-image.png";
       $date = get_field('date', $recent_post->ID);
+      $formatted_post_date = strtoupper($date);
       $subtitle = get_field('subtitle', $recent_post->ID);
 
       // Other two posts
@@ -48,7 +49,7 @@
          <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $rp_featured_img_url ?>" />
 
 
-         <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $date ?></span>
+         <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
        </div>
 
        <div class="  w-full px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">
@@ -81,6 +82,7 @@
 
         $rp_featured_img_url = get_the_post_thumbnail_url($post->ID, 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/blog-image.jpeg";
         $date = get_field('date', $post->ID);
+        $formatted_post_date = strtoupper($date);
         $subtitle = get_field('subtitle', $post->ID);
       ?>
        <div class="group flex flex-col items-start justify-start">
@@ -89,7 +91,7 @@
            <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $rp_featured_img_url ?>" />
 
 
-           <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $date ?></span>
+           <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
          </div>
 
          <div class="w-full px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">
