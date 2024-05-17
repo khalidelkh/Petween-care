@@ -1922,6 +1922,10 @@ button{
   justify-items: stretch;
 }
 
+.\!gap-\[31px\]{
+  gap: 31px !important;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -1972,6 +1976,10 @@ button{
 
 .gap-\[129px\]{
   gap: 129px;
+}
+
+.gap-\[13px\]{
+  gap: 13px;
 }
 
 .gap-\[14px\]{
@@ -2160,22 +2168,6 @@ button{
 
 .gap-\[9px\]{
   gap: 9px;
-}
-
-.gap-\[31px\]{
-  gap: 31px;
-}
-
-.\!gap-\[31px\]{
-  gap: 31px !important;
-}
-
-.gap-\[13px\]{
-  gap: 13px;
-}
-
-.\!gap-\[13px\]{
-  gap: 13px !important;
 }
 
 .gap-x-\[90px\]{

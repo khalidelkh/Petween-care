@@ -82,7 +82,7 @@ $info2 = get_field('info2', $post->ID);
               </h3>
             </div>
           </div>
-          <div class="flex max-w-3xl flex-col items-start justify-start gap-[33px] text-lg font-dm-sans">
+          <div class="flex max-w-3xl flex-col items-start justify-start gap-[13px] text-lg font-dm-sans">
             <p class="m-0 relative leading-[32px] text-justify">
               <?= $blog_description ?>
             </p>
