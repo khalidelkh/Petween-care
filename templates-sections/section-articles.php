@@ -69,11 +69,11 @@
              <p class="m-0 max-w-[310px] relative leading-[27px] mix-blend-normal">
                <?= wp_strip_all_tags($recent_post->post_content) ?>
              </p>
-             <button class="cursor-pointer [border:none] p-0 group-odd:bg-seashell group-even:bg-pet-primary w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
+             <a href="<?= get_the_permalink() ?>" class="cursor-pointer [border:none] p-0 group-odd:bg-seashell group-even:bg-pet-primary w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
                <div class="relative text-sm leading-[24px] uppercase font-medium font-dm-sans group-odd:text-secondary group-even:text-white text-left mix-blend-normal">
                  Lire Plus
                </div>
-             </button>
+             </a>
            </div>
          </div>
        </div>
@@ -112,15 +112,14 @@
                <p class="m-0 max-w-[310px] relative leading-[27px]">
                  <?= wp_strip_all_tags($post->post_content) ?>
                </p>
-               <button class="cursor-pointer p-0 group-odd:bg-seashell group-odd:text-secondary group-even:bg-pet-primary group-even:text-white w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
+               <a href="<?= get_the_permalink() ?>"  class="cursor-pointer p-0 group-odd:bg-seashell group-odd:text-secondary group-even:bg-pet-primary group-even:text-white w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
                  <span class="relative text-sm leading-[24px] uppercase font-medium font-dm-sans text-left mix-blend-normal">
                    Lire Plus
                  </span>
-               </button>
+               </a>
              </div>
            </div>
          </div>
-
        </div>
      <?php endforeach; ?>
 

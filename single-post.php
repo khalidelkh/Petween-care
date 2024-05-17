@@ -63,14 +63,13 @@ $info2 = get_field('info2', $post->ID);
 
     <div class="flex flex-col md:flex-row items-start justify-start gap-[29px] text-gray-200 font-lato">
       <!-- * Left side * -->
-      <div class="flex-1 flex flex-col items-start justify-start gap-[51px]">
+      <div class="flex-1 flex flex-col items-start justify-start !gap-[31px]">
         <div class="flex flex-col items-start justify-start gap-[32px]">
           <div class="flex flex-col items-start justify-start gap-[23px]">
             <div class="max-w-[770px] max-h-[421px]">
               <img class="w-full h-full object-cover rounded-xl" alt="" src="<?= $featured_img_url ?>" />
               <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute mt-44 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
             </div>
-
             <div class="flex flex-col items-start justify-start gap-[2px]">
               <div class="flex flex-row items-center justify-start gap-[8px]">
                 <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
