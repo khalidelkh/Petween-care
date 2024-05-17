@@ -17,9 +17,13 @@ $all_annonce_posts = new WP_Query($args);
 <!-- * ----- Hero ----- * -->
 <section class="self-stretch h-[396px] px-5 flex flex-col items-center justify-center gap-[4px] bg-cover bg-no-repeat bg-[top] text-left text-53xl-1 text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-news.png');">
   <h1 class="m-0 uppercase relative text-center text-41xl sm:text-inherit tracking-[-1.44px] leading-[86.48px] font-medium font-inherit mix-blend-normal">
-    Annonces
+     Annonces 
   </h1>
-  <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal">HOME - SERVICES</span>
+  <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal">
+    <?php if (function_exists('custom_breadcrumbs')) {
+          custom_breadcrumbs();
+        }
+    ?></span>
 </section>
 <!-- * ----- Nos dernier announces ----- * -->
 <section class="flex w-full px-4 xl:px-0 flex-row items-center justify-center relative gap-[10px] text-left text-sm text-pet-primary font-myriad-pro">

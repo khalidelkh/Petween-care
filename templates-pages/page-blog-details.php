@@ -9,11 +9,14 @@ get_header();
         <h1
           class="m-0 relative text-center text-41xl sm:text-inherit tracking-[-1.44px] leading-[86.48px] font-medium font-inherit mix-blend-normal"
         >
-          CHIENS DE LA RUE
+           CHIENS DE LA RUE 
         </h1>
         <span
           class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans whitespace-pre-wrap mix-blend-normal"
-          >HOME - SERVICES</span
+          ><?php if (function_exists('custom_breadcrumbs')) {
+               custom_breadcrumbs();
+             }
+           ?></span
         >
       </section>
       <section class="w-full relative px-4 2xl:px-0 py-28 xl:py-40 2xl:py-44">

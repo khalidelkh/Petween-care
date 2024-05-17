@@ -8,7 +8,10 @@ get_header();
     SOLUTIONS
   </h1>
   <h6 class="m-0 relative text-[21.5px] tracking-[-0.43px] leading-[25.79px] font-normal font-dm-sans mix-blend-normal">
-    HOME - SOLUTIONS
+  <?php if (function_exists('custom_breadcrumbs')) {
+        custom_breadcrumbs();
+    }
+  ?>
   </h6>
 </section>
 
