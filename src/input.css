@@ -44,4 +44,11 @@ body {
   }
  
 }
+a{
+  outline: none !important;
+}
+
+.page {
+  margin:0 !important
+}
 

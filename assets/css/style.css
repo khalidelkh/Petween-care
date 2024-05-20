@@ -4154,6 +4154,14 @@ body{
   box-sizing: border-box;
 }
 
+a{
+  outline: none !important;
+}
+
+.page {
+  margin:0 !important
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -4206,6 +4214,10 @@ body{
   color: rgb(255 255 255 / 0.8);
 }
 
+.visited\:text-tertialy:visited{
+  color: rgb(255 255 255 );
+}
+
 .hover\:bg-tertialy:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -4223,6 +4235,11 @@ body{
 .hover\:text-black:hover{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-tertialy:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{

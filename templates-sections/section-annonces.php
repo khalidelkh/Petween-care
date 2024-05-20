@@ -93,10 +93,10 @@ $annonces = get_posts($args);
                   class="cursor-pointer [border:none] p-0 bg-pet-primary max-w-[325.7px] w-full rounded-3xs h-[53px] flex flex-col items-center justify-center"
                 >
                   <span
-                    class="relative text-[15.2px] leading-[25.97px] font-medium font-dm-sans text-tertialy text-left mix-blend-normal"
+                    class="relative text-[15.2px] leading-[25.97px] font-medium font-dm-sans  text-left mix-blend-normal text-tertialy hover:text-tertialy"
                   >
                     LIRE PLUS
-                  </span>
+              </span>
                 </button>
               </div>
             </div>

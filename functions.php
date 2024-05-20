@@ -397,8 +397,8 @@ function custom_breadcrumbs() {
 		echo $before . single_cat_title('', false) . $after;
 	  } elseif (is_single()) {
 		$cat = get_the_category();
-		$cat = $cat[0];
-		echo get_category_parents($cat, TRUE, ' ' . $separator . ' ');
+		// $cat = $cat[0];
+		// echo get_category_parents($cat, TRUE, ' ' . $separator . ' ');
 		echo $before . get_the_title() . $after;
 	  } elseif (is_page() && !$post->post_parent) {
 		echo $before . get_the_title() . $after;
