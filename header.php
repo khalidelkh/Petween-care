@@ -69,18 +69,18 @@
             </div>
             <div class="flex flex-row items-center justify-start gap-[27px]">
 
-            <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
+            <a href="<?= get_theme_mod('facebook_link', '') ?>">
               <img class="w-[12.3px] relative h-[12.3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/facebook-sm.svg" />
             </a>
 
-            <a href="#" <?= get_theme_mod('youtub_link', '') ?>">
+            <a href="<?= get_theme_mod('youtub_link', '') ?>">
               <img class="w-[15px] relative h-[10.5px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/youtube-sm.svg" />
             </a>
 
-            <a href="#" <?= get_theme_mod('youtub_link', '') ?>">
+            <a href="<?= get_theme_mod('youtub_link', '') ?>">
               <img class="w-[11.4px] relative h-[13px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/ticktok-sm.svg" />
             </a>
-            <a href="#" <?= get_theme_mod('instagram_link', '') ?>">
+            <a href="<?= get_theme_mod('instagram_link', '') ?>">
               <img class="w-[12.3px] relative h-[12.3px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/instagram-sm.svg" />
             </a>
             </div>

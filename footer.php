@@ -73,19 +73,19 @@
                 </p>
               </div>
               <div class="flex flex-row items-start justify-start gap-[19px]">
-              <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
+              <a href="<?= get_theme_mod('facebook_link', '') ?>">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
               </a>
 
-              <a href="#" <?= get_theme_mod('instagram_link', '') ?>">
+              <a href="<?= get_theme_mod('instagram_link', '') ?>">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
               </a>
 
-              <a href="#" <?= get_theme_mod('tiktok_link', '') ?>">
+              <a href="<?= get_theme_mod('tiktok_link', '') ?>">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/ticktok.svg" />
               </a>
 
-              <a href="#" <?= get_theme_mod('tiktok_link', '') ?>">
+              <a href="<?= get_theme_mod('tiktok_link', '') ?>">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
               </a>
               </div>
