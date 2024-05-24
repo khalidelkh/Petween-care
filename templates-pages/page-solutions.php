@@ -92,13 +92,13 @@ get_header();
       <div class="flex flex-col items-center justify-start text-left text-31xl text-gray-200 font-ubuntu">
         <img class="max-w-[590px] max-h-[623px] w-full h-full object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/daily-care-pets.png" />
 
-        <div class="max-w-[348px] px-4 w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] shadow-xl rounded-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
+        <!-- <div class="max-w-[348px] px-4 w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] shadow-xl rounded-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
           <div class="relative tracking-[-1px] mix-blend-normal">
             <p class="m-0 font-bold ">180</p>
             <p class="m-0 text-xl font-dm-sans">Clients Satisfait</p>
           </div>
           <img class="w-16 h-16 object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/pet-care-icon-sm.svg" />
-        </div>
+        </div> -->
       </div>
 
       <img class="absolute hidden xl:block h-52 z-0 -right-[30%]" src="<?= get_template_directory_uri() ?>/assets/images/dog-transparent.png" alt="" />
@@ -110,15 +110,15 @@ get_header();
       <div class="flex flex-col items-center justify-start">
         <img class="w-full h-full max-w-[600px] max-h-[623px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/pet-food-image.png" />
 
-        <div class="max-w-[348px] w-full px-4 min-h-[135px] flex flex-row items-center justify-center gap-[58px] rounded-xl shadow-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
-          <div class="relative tracking-[-1px] mix-blend-normal">
+        <!-- <div class="max-w-[348px] w-full px-4 min-h-[135px] flex flex-row items-center justify-center gap-[58px] rounded-xl shadow-xl bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
+         <div class="relative tracking-[-1px] mix-blend-normal">
             <p class="font-bold mb-0">180</p>
             <p class="text-xl font-dm-sans text-gray-200">
               Clients Satisfait
             </p>
           </div>
           <img class="w-16 h-16 object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/pet-care-icon-sm.svg" />
-        </div>
+        </div> -->
       </div>
 
       <div class="flex flex-col items-start justify-start gap-[80px] text-center text-sm text-pet-primary font-dm-sans">
@@ -264,7 +264,7 @@ get_header();
         <img class="max-w-[590px] max-h-[623px] w-full h-full object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/pet-treatments.png" />
           
         
-        <div class="max-w-[348px] w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
+        <!-- <div class="max-w-[348px] w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
           <div class="relative tracking-[-1px] mix-blend-normal">
             <p class="m-0 font-bold">180</p>
             <p class="m-0 text-xl font-dm-sans text-gray-200">
@@ -272,7 +272,7 @@ get_header();
             </p>
           </div>
           <img class="w-16 h-16 object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/pet-care-icon-sm.svg" />
-        </div>
+        </div> -->
       </div>
     </div>
 

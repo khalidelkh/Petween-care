@@ -16,14 +16,17 @@ const faqButtons = document.querySelectorAll(".faq-button");
 
 faqButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    // * Close all other faqs
+    // * Get the current state of the clicked FAQ
+    const answer = button.querySelector(".faq-answer");
+    const isCurrentlyOpen = answer.style.overflow !== "hidden";
+
+    // * Close all FAQs
     faqButtons.forEach((faqButton) => {
       const answer = faqButton.querySelector(".faq-answer");
       const icon = faqButton.querySelector(".faq-icon");
 
-      icon.style.mask = "url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center";
-      icon.style.mask["-webkit-mask"] =
-      "url(<?= get_template_directory_uri() ?>/assets/images/icons/plus-icon.svg) no-repeat center";
+      icon.style.mask = "url(/wp-content/themes/petween-care-theme/assets/images/icons/plus-icon.svg) no-repeat center";
+      icon.style.webkitMask = "url(/wp-content/themes/petween-care-theme/assets/images/icons/plus-icon.svg) no-repeat center";
       icon.style.backgroundColor = "#385170";
 
       faqButton.style.color = "#385170";
@@ -32,18 +35,19 @@ faqButtons.forEach((button) => {
       answer.style.marginTop = "0";
     });
 
-    const answer = button.querySelector(".faq-answer");
+    // * Toggle the clicked FAQ
+    if (!isCurrentlyOpen) {
+      button.style.color = "#f99d0b";
+      const icon = button.querySelector(".faq-icon");
+      icon.style.mask = "url(/wp-content/themes/petween-care-theme/assets/images/icons/minus-icon.svg) no-repeat center";
+      icon.style.webkitMask = "url(/wp-content/themes/petween-care-theme/assets/images/icons/minus-icon.svg) no-repeat center";
+      icon.style.backgroundColor = "#f99d0b";
 
-    button.style.color = "#f99d0b";
-    const icon = button.querySelector(".faq-icon");
-    icon.style.mask = "url(<?= get_template_directory_uri() ?>/assets/images/icons/minus-icon.svg) no-repeat center";
-    icon.style.mask["-webkit-mask"] =
-    "url(<?= get_template_directory_uri() ?>/assets/images/icons/minus-icon.svg) no-repeat center";
-    icon.style.backgroundColor = "#f99d0b";
-
-    answer.style.opacity = "1";
-    answer.style.maxHeight = answer.scrollHeight + "px";
-    answer.style.overflow = "unset";
-    answer.style.marginTop = "28px";
+      answer.style.opacity = "1";
+      answer.style.maxHeight = answer.scrollHeight + "px";
+      answer.style.overflow = "unset";
+      answer.style.marginTop = "28px";
+    }
   });
 });
+
