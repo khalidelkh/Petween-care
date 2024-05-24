@@ -31,7 +31,7 @@
         class="relative self-stretch flex flex-col items-start justify-start text-left text-sm text-tertialy font-dm-sans"
       >
         <!-- * Lines * -->
-        <div
+        <!-- <div
           class="flex flex-row w-full overflow-hidden items-start justify-start"
         >
           <img
@@ -57,7 +57,7 @@
             alt=""
             src="<?= get_template_directory_uri() ?>/assets/images/icons/orange-line.svg"
           />
-        </div>
+        </div> -->
 
         <div class="w-full px-5 bg-gray-400">
           <div
