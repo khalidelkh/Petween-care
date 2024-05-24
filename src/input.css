@@ -51,4 +51,178 @@ a{
 .page {
   margin:0 !important
 }
+.Petween-care-pagination .page-numbers{
+
+  font-size: 0px !important;
+}
+
+.header-menu-mobile li a{
+    color:rgb(249 157 11) !important;
+}
+
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    outline:none !important;
+    border: none !important;
+    padding: 26px !important;
+    background-color: #FFF5EE !important; 
+    width: 264px !important;
+    color:white !important;
+    font-size: 16px !important; 
+    line-height: 16px !important;
+    font-weight: 300 !important; 
+    font-family: 'DM Sans', sans-serif !important; 
+    color: black !important; 
+    border-radius: 10px !important; 
+    height: 54px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    
+}
+
+input.wpcf7-form-control.wpcf7-email.wpcf7-text.wpcf7-validates-as-email {
+    outline:none !important;
+    border: none !important;
+    padding: 26px !important;
+    background-color: #FFF5EE !important; 
+    width: 264px !important;
+    font-size: 16px !important; 
+    line-height: 16px !important;
+    font-weight: 300 !important; 
+    font-family: 'DM Sans', sans-serif !important; 
+    color: black !important; 
+    border-radius: 10px !important; 
+    height: 54px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+ cursor: pointer !important;
+  border: none !important;
+  padding: 10px !important;
+  color: white !important;
+  background-color:#F99D0B !important;  
+  width: 164px !important;
+  font-size: 18px !important; 
+  line-height: 16px !important;
+  font-weight: 500!important; 
+  font-family: 'DM Sans', sans-serif !important;  
+  border-radius: 40px !important; 
+  height: 54px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+    width: 575px !important; 
+    outline: none !important;
+	  border: none !important;
+    grid-column: span 2 / span 2 !important;
+    border-radius: 10px !important; 
+    background-color: #FFF5EE !important;
+    height: 168px !important;
+    padding-top: 20px !important; 
+    padding-bottom: 20px !important; 
+    padding-left: 26px !important; 
+    padding-right: 26px !important;
+} 
+.mc4wp-form-fields {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+  width: 417px !important; 
+  max-width: 24rem !important; 
+  padding-bottom: 0.25rem !important; 
+  display: flex !important; 
+  flex: 1 1 0% !important; 
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important; 
+}
+
+ul#pages-légales a{
+  color:#fff !important;
+}
+ul#liens-utils a{
+  color:#fff !important;
+}
+ul#header-menu a{
+  color: #385170 !important;
+}
+@media (min-width: 1280px) {
+  .xl\:gap-14 {
+      gap: 5.5rem !important;
+  }
+}
+nav.breadcrumbs a{
+    color:white !important;
+}
+
+nav.breadcrumbs span{
+  text-transform:uppercase !important;
+}
+@media screen and (max-width: 320px){
+	.mc4wp-form-fields{
+		width : 100%
+	}	
+}
+
+
+@media screen and (max-width: 768px){
+	textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+		width:100% !important;
+	}
+}
+@media screen and (max-width: 768px){
+	input.wpcf7-form-control.wpcf7-email.wpcf7-text.wpcf7-validates-as-email {
+		width:100% !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width:100% !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+  .mc4wp-form-fields {
+    width: 100% !important;
+  }
+}  
+
+@media screen and (max-width: 768px){
+	textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+		width:100%;
+	}
+}
+@media screen and (max-width: 768px){
+	input.wpcf7-form-control.wpcf7-email.wpcf7-text.wpcf7-validates-as-email {
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+		width:100% !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+	ul#header-menu li a{
+    color : #ffaa4a !important;
+}
+}
+.Petween-care-pagination .page-numbers{
+
+  font-size: 0px !important;
+}
+
+.Petween-care-annonce-pagination a.page-numbers {
+    color: #800080 !important;
+}
+
 

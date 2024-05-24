@@ -65,7 +65,7 @@
           >
             <div class="flex flex-row items-center justify-start gap-[9px]">
               <img src="<?= get_template_directory_uri() ?>/assets/images/icons/mail-closed-icon.svg" alt="" />
-                <a href="mailto:<?= get_theme_mod('contact_email', 'petween@gmail.com') ?>" class="relative leading-[16.8px] mix-blend-norma text-white hover:text-white"><?= get_theme_mod('contact_email', 'petween@gmail.com') ?></a>
+                <a href="mailto:<?= get_theme_mod('contact_email', 'petween@gmail.com') ?>" class="relative leading-[16.8px] mix-blend-norma !text-white hover:!text-white visited:!text-white"><?= get_theme_mod('contact_email', 'petween@gmail.com') ?></a>
             </div>
             <div class="flex flex-row items-center justify-start gap-[27px]">
 
