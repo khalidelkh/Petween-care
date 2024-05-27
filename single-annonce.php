@@ -11,7 +11,12 @@ $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full') ?: get_temp
  $time = get_field('time'); 
  $date = get_field('date');
 
+// Annonce categories
+$categorie_1 = get_field('categorie_1'); 
+$categorie_2  = get_field('categorie_2');
 
+// Annonce categories description
+$categories_description = get_field('categorie_description'); 
 
 //Annonce title
 $Annonce_title= get_field('annonce_title');
@@ -153,8 +158,9 @@ $services = get_the_terms(get_the_ID(), 'service');
                   <h4
                     class="m-0 max-w-[267px] relative text-inherit leading-[32px] font-bold font-inherit"
                   >
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum.
+                    <!-- Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum. -->
+                    <?=$categorie_1 ?>
                   </h4>
                 </div>
                 <div class="flex flex-row items-start justify-start gap-[28px]">
@@ -167,8 +173,9 @@ $services = get_the_terms(get_the_ID(), 'service');
                   <h4
                     class="m-0 max-w-[267px] relative text-inherit leading-[32px] font-bold font-inherit"
                   >
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum.
+                    <!-- Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum. -->
+                    <?=$categorie_2?>
                   </h4>
                 </div>
               </div>
@@ -177,7 +184,7 @@ $services = get_the_terms(get_the_ID(), 'service');
                 class="flex flex-col items-center lg:items-start justify-start py-0 pr-0 sm:pl-2.5 gap-[52px] text-lg text-gray-200 font-dm-sans"
               >
                 <p class="m-0 max-w-[770px] relative leading-[32px]">
-                  <span
+                  <!-- <span
                     >When an unknown printer took a galley of type and scrambled
                     it to make a type specimen book. It has survived not only
                     five centuries, but also the leap into electronic
@@ -186,7 +193,8 @@ $services = get_the_terms(get_the_ID(), 'service');
                   <span
                     >. Lorem Ipsum has been the ndustry standard dummy text ever
                     since the 1500s.</span
-                  >
+                  > -->
+                  <?= wp_strip_all_tags($categories_description) ?>
                 </p>
                 <div
                   class="flex flex-col sm:flex-row items-start justify-start gap-[29px] text-11xl text-secondary font-ubuntu"
