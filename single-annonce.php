@@ -56,7 +56,7 @@ $services = get_the_terms(get_the_ID(), 'service');
           src="<?= get_template_directory_uri() ?>/assets/images/paw-large.png"
         />
         <div
-          class=" w-full max-w-6xl mx-auto py-32 flex flex-col items-center justify-start gap-[129px] z-[1]"
+          class=" w-full max-w-6xl mx-auto py-32 flex flex-col items-center justify-start gap-20  z-[1]"
         >
           <div class="flex flex-col items-start justify-start gap-[50px]">
             <div
