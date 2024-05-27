@@ -57,7 +57,7 @@ $all_annonce_posts = new WP_Query($args);
             // Featured Image
             $image_url = get_the_post_thumbnail_url($annonce_id, 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/cat-on-legs.png";
             $title = get_field('title', $annonce_id);
-            $date = get_field('date', $annonce_id);
+            $date_annonce = get_field('date_annonce', $annonce_id);
           ?>
             <div class="z-20 shadow-2xl px-4 py-4 border border-gray-100/10 border-solid rounded-xl max-w-[364.7px] flex flex-col items-center justify-start box-border gap-[28px]">
               <img class="h-[234.8px] w-full object-cover rounded-xl" alt="" src="<?= $image_url ?>" />
@@ -65,7 +65,7 @@ $all_annonce_posts = new WP_Query($args);
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div class="flex flex-col items-start justify-start gap-[9px]">
                   <div class="flex flex-col items-start justify-start gap-[4px] text-center text-pet-primary">
-                    <time class="relative tracking-[-0.32px] leading-[19.48px] whitespace-pre-wrap mix-blend-normal"><?= $date ?></time>
+                    <time class="relative tracking-[-0.32px] leading-[19.48px] whitespace-pre-wrap mix-blend-normal"><?= $date_annonce ?></time>
                     <h3 class="m-0 relative text-7xl tracking-[-0.52px] leading-[31.17px] font-medium font-ubuntu text-secondary mix-blend-normal">
                       <?= the_title(); ?>
                     </h3>
