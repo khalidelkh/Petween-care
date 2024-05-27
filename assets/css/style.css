@@ -1958,6 +1958,10 @@ button{
   gap: 3.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-28{
   gap: 7rem;
 }
@@ -2188,14 +2192,6 @@ button{
 
 .gap-\[9px\]{
   gap: 9px;
-}
-
-.gap-80{
-  gap: 20rem;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-x-\[90px\]{

@@ -2,7 +2,7 @@
 get_header();
 
 //Subtitle
-$Subtitle = get_field('Subtitle');
+$Subtitle = get_field('subtitle');
 
 // Featured image
 $featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/dog-annouce-details.png";
