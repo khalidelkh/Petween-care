@@ -425,6 +425,10 @@ button{
   top: 67px;
 }
 
+.\!top-\[50\%\]{
+  top: 50% !important;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -593,10 +597,6 @@ button{
 
 .mt-3{
   margin-top: 0.75rem;
-}
-
-.mt-44{
-  margin-top: 11rem;
 }
 
 .mt-\[-74px\]{

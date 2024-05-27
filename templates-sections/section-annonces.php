@@ -54,7 +54,7 @@ $annonces = get_posts($args);
                 $annonce_id = $annonce->ID;
                 $image_url = get_the_post_thumbnail_url($annonce_id, 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/cat-on-legs.png";
                 $title = get_field('title', $annonce_id);
-                $date = get_field('date', $annonce_id);
+                $date_annonce = get_field('date_annonce', $annonce_id);
         ?>
             <div
               class="max-w-[364.7px] h-[524.6px] flex flex-col items-center justify-start pt-3.5 px-3 shadow-md rounded-xl pb-0 box-border gap-[28px] bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-lg.png');"
@@ -72,7 +72,7 @@ $annonces = get_posts($args);
                   >
                     <span
                       class="relative tracking-[-0.32px] leading-[19.48px] whitespace-pre-wrap mix-blend-normal"
-                      ><?= $date ?> </span
+                      ><?= $date_annonce ?> </span
                     >
                     <h3
                       class="m-0 relative text-7xl tracking-[-0.52px] leading-[31.17px] font-medium font-ubuntu text-secondary mix-blend-normal"
@@ -89,15 +89,15 @@ $annonces = get_posts($args);
                   <?= $title ?>
                   </span>
                 </div>
-                <button
-                  class="cursor-pointer [border:none] p-0 bg-pet-primary max-w-[325.7px] w-full rounded-3xs h-[53px] flex flex-col items-center justify-center"
+                
+                <a href="<?= $annonce->guid ?>" class="cursor-pointer [border:none] p-0 bg-pet-primary max-w-[325.7px] w-full rounded-3xs h-[53px] flex flex-col items-center justify-center"
                 >
                   <span
                     class="relative text-[15.2px] leading-[25.97px] font-medium font-dm-sans  text-left mix-blend-normal text-tertialy hover:text-tertialy"
                   >
                     LIRE PLUS
               </span>
-                </button>
+               </a>
               </div>
             </div>
             <?php endforeach; ?>
