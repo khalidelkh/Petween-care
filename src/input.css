@@ -225,4 +225,32 @@ nav.breadcrumbs span{
     color: #800080 !important;
 }
 
+.Annonce-description p{
+  display: flex !important; 
+    flex-direction: column !important; 
+    align-items: flex-start !important; 
+    justify-content: flex-start !important; 
+    gap: 33px !important;
+    text-align: justify !important; 
+    font-size: 1.125rem !important;
+   line-height: 32px !important;
+   margin-top: -12px !important;
+  
+      
+      }
+  .Annonce-description h4{
+   margin: 0 !important; 
+    align-self: stretch !important;
+    position: relative !important;
+    font-size: 1.5rem !important; 
+    letter-spacing: -0.52px !important; 
+    line-height: 32px !important; 
+    font-family: 'Ubuntu', sans-serif !important; 
+    line-height: 32px !important;
+    color: red !important;
+  
+    
+  }
+  
+
 

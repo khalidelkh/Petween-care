@@ -307,7 +307,7 @@ function register_Annonce_post_type()
 		'label'               => __('Annonce', 'Petween-care'),
 		'description'         => __('Annonces', 'Petween-care'),
 		'labels'              => $labels,
-		'supports'            => array('title', 'editor'),
+		'supports'            => array('title', 'editor', 'thumbnail'),
 		'hierarchical'        => false,
 		'public'              => true,
 		'show_ui'             => true,
@@ -326,6 +326,48 @@ function register_Annonce_post_type()
 	register_post_type('Annonce', $args);
 }
 add_action('init', 'register_Annonce_post_type');
+
+
+
+/**
+ * Register service taxonomy
+ *
+ * @return void
+ */
+function register_Service_benefits_taxonomy()
+{
+	$labels = array(
+		'name'                       => _x('Services', 'Taxonomy General Name', 'text_domain'),
+		'singular_name'              => _x('service', 'Taxonomy Singular Name', 'text_domain'),
+		'menu_name'                  => __('Services', 'text_domain'),
+		'all_items'                  => __('All Services', 'text_domain'),
+		'parent_item'                => __('Parent service', 'text_domain'),
+		'parent_item_colon'          => __('Parent service:', 'text_domain'),
+		'new_item_name'              => __('New service Name', 'text_domain'),
+		'add_new_item'               => __('Add New service', 'text_domain'),
+		'edit_item'                  => __('Edit service', 'text_domain'),
+		'update_item '                => __('Update service', 'text_domain'),
+		'separate_items_with_commas' => __('Separate service with commas', 'text_domain'),
+		'search_items'               => __('Search Services', 'text_domain'),
+		'add_or_remove_items'        => __('Add or remove service', 'text_domain'),
+		'choose_from_most_used'      => __('Choose from the most used service', 'text_domain'),
+		'not_found'                  => __('Not Found', 'text_domain'),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_in_nav_menus'          => true,
+		'show_admin_column'          => true,
+		'query_var'                  => true,
+		'rewrite'                    => array('slug' => 'service'),
+	);
+	register_taxonomy('service', array('annonce'), $args);
+}
+add_action('init', 'register_Service_benefits_taxonomy');
+
+
 
 
 /**

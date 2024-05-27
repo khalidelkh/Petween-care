@@ -861,6 +861,10 @@ button{
   height: 28.1px;
 }
 
+.h-\[309px\]{
+  height: 309px;
+}
+
 .h-\[31px\]{
   height: 31px;
 }
@@ -1191,6 +1195,10 @@ button{
 
 .w-\[40\.1px\]{
   width: 40.1px;
+}
+
+.w-\[400px\]{
+  width: 400px;
 }
 
 .w-\[41px\]{
@@ -4328,6 +4336,29 @@ nav.breadcrumbs span{
   color: #800080 !important;
 }
 
+.Annonce-description p{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 33px !important;
+  text-align: justify !important;
+  font-size: 1.125rem !important;
+  line-height: 32px !important;
+  margin-top: -12px !important;
+}
+
+.Annonce-description h4{
+  margin: 0 !important;
+  align-self: stretch !important;
+  position: relative !important;
+  font-size: 1.5rem !important;
+  letter-spacing: -0.52px !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  line-height: 32px !important;
+  color: red !important;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -4725,5 +4756,6 @@ nav.breadcrumbs span{
     }
   }
 }
+  
 
 

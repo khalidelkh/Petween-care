@@ -77,7 +77,7 @@ $all_annonce_posts = new WP_Query($args);
                     <?= $title ?>
                   </span>
                 </div>
-                <a href="<?= get_the_permalink() ?>" class="cursor-pointer text-[15.2px] leading-[25.97px] font-medium font-dm-sans text-tertialy [border:none] bg-pet-primary w-full rounded-3xs py-3 flex flex-col items-center justify-center hover:text-tertialy visited:text-tertialy">
+                <a href="<?= the_permalink(); ?>" class="cursor-pointer text-[15.2px] leading-[25.97px] font-medium font-dm-sans text-tertialy [border:none] bg-pet-primary w-full rounded-3xs py-3 flex flex-col items-center justify-center hover:text-tertialy visited:text-tertialy">
                   LIRE PLUS
                 </a>
               </div>

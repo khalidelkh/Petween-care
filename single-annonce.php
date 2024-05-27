@@ -1,6 +1,27 @@
 <?php
-/* Template Name: Annonces details*/
 get_header();
+
+//Subtitle
+$Subtitle = get_field('Subtitle');
+
+// Featured image
+$featured_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full') ?: get_template_directory_uri() . "/assets/images/__tests__/dog-annouce-details.png";
+
+// Annonce Date
+ $time = get_field('time'); 
+ $date = get_field('date');
+
+
+
+//Annonce title
+$Annonce_title= get_field('annonce_title');
+
+//Annonce description
+$Annonce_description= get_field('annonce_description');
+
+//service benefits 
+$services = get_the_terms(get_the_ID(), 'service');
+
 ?>
       <!-- * ----- Hero ----- * -->
       <section
@@ -30,7 +51,7 @@ get_header();
           src="<?= get_template_directory_uri() ?>/assets/images/paw-large.png"
         />
         <div
-          class="w-full max-w-6xl mx-auto py-32 flex flex-col items-center justify-start gap-[129px] z-[1]"
+          class=" w-full max-w-6xl mx-auto py-32 flex flex-col items-center justify-start gap-[129px] z-[1]"
         >
           <div class="flex flex-col items-start justify-start gap-[50px]">
             <div
@@ -55,8 +76,7 @@ get_header();
                 <h2
                   class="m-0 relative text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu text-secondary mix-blend-normal"
                 >
-                  Nos <br />
-                  Chiens Compagnie
+                <?= the_title(); ?>
                 </h2>
               </div>
               <div
@@ -64,11 +84,11 @@ get_header();
               >
                 <time
                   class="relative tracking-[-0.7px] leading-[42.23px] font-medium mix-blend-normal"
-                  >5 pm 30</time
-                >
+                   ><?=   $time ?></time
+                > 
                 <time
                   class="relative tracking-[-0.7px] leading-[42.23px] text-secondary mix-blend-normal"
-                  >11 Jan 2024</time
+                  ><?=  $date ?></time
                 >
               </div>
             </div>
@@ -79,69 +99,35 @@ get_header();
               <h6
                 class="m-0 relative text-inherit leading-[32px] font-normal font-inherit mix-blend-normal"
               >
-                Lorem ipsum is simply free text used by copytyping refreshing.
+              <?= $Subtitle ?>
               </h6>
               <div
                 class="flex flex-col lg:flex-row items-start justify-start gap-[53px] text-[38px] text-secondary"
               >
                 <div
-                  class="flex flex-col items-center lg:items-start gap-[32px]"
+                  class=" flex flex-col items-center lg:items-start gap-[32px]"
                 >
                   <h3
                     class="m-0 relative text-[35px] xl:text-inherit leading-[47px] font-bold font-inherit mix-blend-normal"
                   >
-                    Industry standard dummy text ever lorem dolor istet dummy
-                    text ever since the 1500s.
+                  <?= $Annonce_title ?>
                   </h3>
                   <div class="max-w-[498px] max-h-[585px]">
                     <img
                       class="w-full h-full object-cover"
                       alt=""
-                      src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dog-annouce-details.png"
+                      src="<?= $featured_img_url ?>"
                     />
                   </div>
                 </div>
 
                 <div
-                  class="max-w-none lg:max-w-lg xl:max-w-[622px] flex flex-col items-start justify-start gap-[33px] text-justify text-lg text-gray-200"
+                  class="Annonce-description max-w-none lg:max-w-lg xl:max-w-[622px] flex flex-col items-start justify-start gap-[33px] text-justify text-lg text-gray-200"
                 >
                   <p
                     class="m-0 self-stretch relative leading-[32px] mix-blend-normal"
                   >
-                    Lorem ipsum is simply free text used by copytyping
-                    refreshing. Neque porro est qui dolorem ipsum quia quaed
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Aelltes port lacus quis enim var sed
-                    efficitur turpis gilla sed sit amet finibus eros. Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the ndustry standard dummy
-                    text ever since the 1500s.
-                  </p>
-                  <h4
-                    class="m-0 self-stretch relative text-7xl tracking-[-0.52px] leading-[32px] font-medium font-ubuntu text-tomato"
-                  >
-                    Lorem Ipsum has been the ndustry standard dummy text ever
-                    since the 1500s.
-                  </h4>
-                  <p class="m-0 self-stretch relative leading-[32px]">
-                    Lorem ipsum is simply free text used by copytyping
-                    refreshing. Neque porro est qui dolorem ipsum quia quaed
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Aelltes port lacus quis enim var sed
-                    efficitur turpis gilla sed sit amet finibus eros. Lorem
-                    Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the ndustry standard dummy
-                    text ever since the 1500s.
-                  </p>
-                  <p class="m-0 self-stretch relative leading-[32px] text-left">
-                    It has survived not only five centuries. Lorem Ipsum
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. is simply dummy text of the new design
-                    printng and type setting Ipsum take a look at our round.
-                    When an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book. It has survived not only
-                    five centuries, but also the leap into electronic
-                    typesetting.
+                  <?= $Annonce_description ?>
                   </p>
                 </div>
               </div>
@@ -207,9 +193,9 @@ get_header();
                 >
                   <div class="max-w-[370px] max-h-[291px]">
                     <img
-                      class="w-full h-full object-cover"
+                      class="w-[400px] h-[309px] object-cover rounded-3xs"
                       alt=""
-                      src="<?= get_template_directory_uri() ?>/assets/images/__tests__/service-benefit.png"
+                      src="<?= $featured_img_url ?>"
                     />
                   </div>
 
@@ -224,10 +210,13 @@ get_header();
                     <div
                       class="flex flex-col items-start justify-start gap-[18px] text-xl text-gray-200 font-dm-sans"
                     >
+                 
                       <p class="m-0 max-w-[371px] relative leading-[30px]">
                         Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum.
                       </p>
+                      <?php if (!empty($services)) :
+                      foreach ($services as $service) : ?>
                       <ul
                         class="m-0 flex flex-col items-start justify-start gap-[10px] text-lg text-gray-300"
                       >
@@ -241,10 +230,40 @@ get_header();
                           />
 
                           <span
+                            class="max-w-80 relative leading-[32px] font-medium inline-block" >
+                          
+                          <?= esc_html($service->name); ?>
+                          </span>
+                        </li>
+                        <!-- <li
+                          class="flex flex-row items-center justify-start gap-[20px]"
+                        >
+                          <img
+                            class="w-3.5 relative h-3.5"
+                            alt=""
+                            src="<?= get_template_directory_uri() ?>/assets/images/icons/arrow-right-sm.svg"
+                          />
+
+                           <span
                             class="max-w-80 relative leading-[32px] font-medium inline-block"
                           >
                             In id diam nec nisi congue tincidunt
-                          </span>
+                          </span> 
+                        </li>
+                        <li
+                          class="flex flex-row items-center justify-start gap-[20px]"
+                        >
+                          <img
+                            class="w-3.5 relative h-3.5"
+                            alt=""
+                            src="<?= get_template_directory_uri() ?>/assets/images/icons/arrow-right-sm.svg"
+                          />
+
+                           <span
+                            class="max-w-80 relative leading-[32px] font-medium inline-block"
+                          >
+                            In id diam nec nisi congue tincidunt
+                          </span> 
                         </li>
                         <li
                           class="flex flex-row items-center justify-start gap-[20px]"
@@ -259,39 +278,11 @@ get_header();
                             class="max-w-80 relative leading-[32px] font-medium inline-block"
                           >
                             In id diam nec nisi congue tincidunt
-                          </span>
-                        </li>
-                        <li
-                          class="flex flex-row items-center justify-start gap-[20px]"
-                        >
-                          <img
-                            class="w-3.5 relative h-3.5"
-                            alt=""
-                            src="<?= get_template_directory_uri() ?>/assets/images/icons/arrow-right-sm.svg"
-                          />
-
-                          <span
-                            class="max-w-80 relative leading-[32px] font-medium inline-block"
-                          >
-                            In id diam nec nisi congue tincidunt
-                          </span>
-                        </li>
-                        <li
-                          class="flex flex-row items-center justify-start gap-[20px]"
-                        >
-                          <img
-                            class="w-3.5 relative h-3.5"
-                            alt=""
-                            src="<?= get_template_directory_uri() ?>/assets/images/icons/arrow-right-sm.svg"
-                          />
-
-                          <span
-                            class="max-w-80 relative leading-[32px] font-medium inline-block"
-                          >
-                            In id diam nec nisi congue tincidunt
-                          </span>
-                        </li>
+                          </span>  -->
+                        <!-- </li> -->
                       </ul>
+                      <?php endforeach; ?>  
+                      <?php endif; ?>
                     </div>
                   </div>
                 </div>
