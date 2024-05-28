@@ -171,7 +171,7 @@ get_header();
             <div
               class="flex flex-col sm:flex-row items-center justify-start gap-[25px]"
             >
-              <button
+              <a href="/Solutions"
                 class="cursor-pointer [border:none] p-0 bg-pet-primary w-[209.8px] rounded-81xl h-[57.9px] flex flex-col items-center justify-center"
               >
                 <div
@@ -179,7 +179,7 @@ get_header();
                 >
                   En savoir plus
                 </div>
-              </button>
+              </a>
               <button
                 class="cursor-pointer [border:none] p-0 bg-[transparent] flex flex-row items-center justify-start gap-[17px]"
               >
@@ -376,7 +376,7 @@ get_header();
               </div>
             </div>
           </div>
-          <button
+          <a href="/Solutions"
             class="cursor-pointer [border:none] p-0 bg-pet-primary w-[209.8px] rounded-81xl h-[57.9px] flex flex-col items-center justify-center"
           >
             <div
@@ -384,7 +384,7 @@ get_header();
             >
               En savoir plus
             </div>
-          </button>
+          </a>
         </div>
       </section>
             <!-- * ---- Un espace dédié aux petites annonces ---- * -->
