@@ -119,7 +119,7 @@ $services = get_the_terms(get_the_ID(), 'service');
                   </h3>
                   <div class="max-w-[498px] max-h-[585px]">
                     <img
-                      class="w-full h-full object-cover"
+                      class="w-[598px] h-[574px] object-cover"
                       alt=""
                       src="<?= $featured_img_url ?>"
                     />
