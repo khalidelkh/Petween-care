@@ -420,7 +420,7 @@ get_header();
                 </h2>
               </div>
               <p
-                class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100 max-sm:max-w-[350px] max-sm:ml-5"
+                class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100  max-sm:ml-5"
               >
                 Mauris vehicula sem sed mi semper, ut vestibulum elit. Cras
                 varius elit maximus sodales Mauris vehicula sem sed mi semper,

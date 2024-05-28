@@ -1387,10 +1387,6 @@ button{
   max-width: 20rem;
 }
 
-.max-w-\[\]{
-  max-width: ;
-}
-
 .flex-1{
   flex: 1 1 0%;
 }
@@ -1830,6 +1826,10 @@ button{
 
 .place-items-center{
   place-items: center;
+}
+
+.\!place-items-center{
+  place-items: center !important;
 }
 
 .place-items-baseline{

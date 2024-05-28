@@ -43,7 +43,7 @@
       </div>
 
 
-      <div class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start justify-start gap-[30px] z-[1] text-gray-200 font-lato">
+      <div class="max-w-6xl !place-items-center mx-auto w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-start justify-start gap-[30px] z-[1] text-gray-200 font-lato">
         <div class="z-10 flex group max-w-[370px] flex-col items-start justify-start">
           <div class="overflow-hidden max-w-[370px] h-64 max-h-[250px] relative">
             <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $rp_featured_img_url ?>" />
