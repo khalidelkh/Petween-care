@@ -25,7 +25,7 @@
           <div class="flex flex-row items-center justify-start gap-[11px]">
             <img class="w-3.5 relative h-[13.1px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/dog-icon-sm.svg" />
 
-            <h6 class="m-0 relative font-ubuntu text-inherit tracking-[2.8px] leading-[30px] font-normal font-inherit mix-blend-normal">
+            <h6 class="m-0 relative font-ubuntu text-inherit tracking-[2.8px] leading-[30px] font-normal font-inherit mix-blend-normal text-pet-primary">
               BLOG POSTS
             </h6>
           </div>
@@ -49,7 +49,7 @@
             <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $rp_featured_img_url ?>" />
 
 
-            <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
+            <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 font-ubuntu -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
           </div>
 
           <div class="  w-full px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">
@@ -91,7 +91,7 @@
               <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $rp_featured_img_url ?>" />
 
 
-              <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
+              <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary font-ubuntu absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
             </div>
 
             <div class="w-full px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">

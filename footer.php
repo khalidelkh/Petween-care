@@ -105,7 +105,7 @@
                 'theme_location' => 'liens-utils',
                 'menu_id' => 'liens-utils',
                 'container' => 'ul',
-                'menu_class' => ' liens-utils w-[110px] flex flex-col items-start mt-2 justify-start gap-[8px] text-base !text-white',
+                'menu_class' => ' liens-utils w-[110px] flex flex-col items-start mt-2 justify-start gap-[8px] text-base !text-white shrink-0  mix-blend-normal',
               ));
               ?>
                 
@@ -121,7 +121,7 @@
                 'theme_location' => 'pages-légales',
                 'menu_id' => 'pages-légales',
                 'container' => 'ul',
-                'menu_class' => ' pages-légales w-[110px] flex flex-col mt-2 items-start justify-start gap-[7px] text-base !text-white',
+                'menu_class' => ' pages-légales w-[110px] flex flex-col mt-2 items-start justify-start gap-[7px] text-base !text-white shrink-0 mix-blend-normal',
               ));
               ?>
               </div>

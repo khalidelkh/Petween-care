@@ -16,7 +16,7 @@ $faqs = get_posts($args);
     foreach ($faqs as $faq) :
       $faq_id = $faq->ID;
   ?>
-      <div class="faq-button overflow-hidden max-w-[570px] py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen">
+      <div class="faq-button overflow-hidden max-w-[570px] !pb-0 py-4 sm:py-6 px-5 sm:px-10 rounded-3xs bg-tertialy box-border flex flex-col items-center justify-center border-[1px] border-solid border-linen">
         <div class="flex flex-row items-center justify-between w-full gap-[10px]">
           <h6 class="relative text-inherit tracking-[-0.36px] leading-[21.6px] font-medium mix-blend-normal">
             <?= wp_strip_all_tags($faq->post_title) ?>

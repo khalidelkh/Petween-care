@@ -317,7 +317,7 @@ get_header();
   </div>
 </section>
 <!-- * ---- Connectez-vous à votre espace privé ---- * -->
-<section class="self-stretch min-h-[617px] py-10 px-5 flex flex-col items-start justify-center box-border relative bg-cover bg-no-repeat bg-[top] text-[60px] text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-xl.png');">
+<section class="self-stretch min-h-[617px] py-10 px-5 flex flex-col items-start justify-center box-border relative bg-cover bg-no-repeat bg-[top] text-[60px] text-tertialy font-ubuntu overflow-x-hidden" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paw-xl.png');">
   <div class="max-w-6xl flex gap-y-10 flex-col lg:flex-row items-center mx-auto w-full">
     <div class="">
       <div class="flex flex-col items-start justify-start gap-[43px] z-[0] mb-5">

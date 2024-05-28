@@ -72,7 +72,7 @@ $prev_post = get_previous_post();
           <div class="flex flex-col items-start justify-start gap-[23px]">
             <div class="relative max-w-[770px] max-h-[421px]">
               <img class="w-full h-full object-cover rounded-xl" alt="" src="<?= $featured_img_url ?>" />
-              <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute !top-[50%]  -translate-y-1/2 left-4 -translate-x-1/2 p-2 "><?= $formatted_post_date ?></span>
+              <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute !top-[50%] font-ubuntu  -translate-y-1/2 left-4 -translate-x-1/2 p-2 "><?= $formatted_post_date ?></span>
             </div>
             <div class="flex flex-col items-start justify-start gap-[2px]">
               <div class="flex flex-row items-center justify-start gap-[8px]">
@@ -97,7 +97,7 @@ $prev_post = get_previous_post();
 
           <div class="flex flex-wrap gap-3 flex-row items-center justify-between w-full">
             <div class="flex flex-row items-center justify-start gap-[17px]">
-              <b class="relative leading-[19.2px] mix-blend-normal">Tags</b>
+              <b class="relative leading-[19.2px] font-ubuntu mix-blend-normal">Tags</b>
               <div class="flex flex-row items-start justify-start gap-[10px] text-xs text-tertialy font-dm-sans">
                 <?php if (!empty($post_tags)) :
                   foreach ($post_tags as $tag) : ?>
@@ -281,7 +281,7 @@ $prev_post = get_previous_post();
         </div>
 
         <div class="rounded-xl bg-whitesmoke-200 flex flex-col items-start justify-center px-14 py-12 box-border gap-[25px]">
-          <h6 class="relative leading-[24px] text-inherit mix-blend-normal">
+          <h6 class="relative leading-[24px]  text-inherit font-bold">
             Tags
           </h6>
           <div class="flex flex-row flex-wrap items-start justify-start gap-[10px] text-xs text-gray-200">

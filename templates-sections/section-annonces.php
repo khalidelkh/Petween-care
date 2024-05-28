@@ -25,7 +25,7 @@
            <br />aux petites annonces
          </h2>
        </div>
-       <a href="https://petween-care.developpement.top/annonces/" class="cursor-pointer [border:none] p-0 bg-pet-primary w-[209.8px] rounded-81xl h-[57.9px] flex flex-col items-center justify-center">
+       <a href="/annonces" class="cursor-pointer [border:none] p-0 bg-pet-primary w-[209.8px] rounded-81xl h-[57.9px] flex flex-col items-center justify-center">
          <div class="w-[104px] relative text-base leading-[16px] font-medium font-dm-sans text-tertialy text-center inline-block h-4 shrink-0 mix-blend-normal">
            En savoir plus
          </div>

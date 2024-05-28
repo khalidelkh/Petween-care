@@ -110,7 +110,7 @@
                 'theme_location' => 'header-menu',
                 'menu_id' => 'header-menu',
                 'container' => 'ul',
-                'menu_class' => 'flex list-none flex-row items-start justify-start gap-5 xl:gap-16 2xl:gap-[54px]',
+                'menu_class' => 'flex list-none flex-row items-start justify-start gap-5 font-medium uppercase mix-blend-normal xl:gap-16 2xl:gap-[54px]',
               ));
               ?>
               <!-- <hr class="mt-3 w-px h-10 border-r border-gray-200/20" /> -->
@@ -172,7 +172,7 @@
                 'theme_location' => 'header-menu',
                 'menu_id' => 'header-menu',
                 'container' => 'ul',
-                'menu_class' => 'header-menu-mobile list-none m-0 p-0 flex flex-col items-center flex-wrap justify-center gap-[36px] text-center text-base !text-white font-barlow',
+                'menu_class' => 'header-menu-mobile list-none m-0 p-0 font-medium uppercase mix-blend-normal flex flex-col items-center flex-wrap justify-center gap-[36px] text-center text-base !text-white font-barlow',
               ));
               ?>
                 <a href="<?= get_theme_mod('conection_link', '') ?>"
