@@ -71,7 +71,7 @@ $prev_post = get_previous_post();
         <div class="flex flex-col items-start justify-start gap-[32px]">
           <div class="flex flex-col items-start justify-start gap-[23px]">
             <div class="relative max-w-[770px] max-h-[421px]">
-              <img class="w-[770px] h-[376px] object-cover rounded-xl" alt="" src="<?= $featured_img_url ?>" />
+              <img class="w-[770px] h-[376px]  rounded-xl" alt="" src="<?= $featured_img_url ?>" />
               <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute !top-[50%] font-ubuntu  -translate-y-1/2 left-4 -translate-x-1/2 p-2 "><?= $formatted_post_date ?></span>
             </div>
             <div class="flex flex-col items-start justify-start gap-[2px]">
