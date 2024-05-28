@@ -82,7 +82,7 @@ get_header();
               <h3
                 class="text-inherit relative tracking-[-0.48px] leading-[30px] font-medium inline-block mix-blend-normal"
               >
-                Suivre
+               Anticiper
               </h3>
               <p
                 class="relative text-sm tracking-[-0.38px] leading-[30px] font-dm-sans text-gray-100 mix-blend-normal"
