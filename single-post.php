@@ -28,6 +28,10 @@ $poste_récent = get_post();
 // Poste informations
 $info1 = get_field('info1', $post->ID);
 $info2 = get_field('info2', $post->ID);
+
+// Next and Prev posts
+$next_post = get_next_post();
+$prev_post = get_previous_post();
 ?>
 <!-- * ----- Hero ----- * -->
 <section class="self-stretch h-[396px] px-5 flex flex-col items-center justify-center gap-[4px] bg-cover bg-no-repeat bg-[top] text-left text-53xl-1 text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/CHIENS-DE-LA-RUE.png');">
@@ -36,8 +40,8 @@ $info2 = get_field('info2', $post->ID);
   </h1>
   <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans  mix-blend-normal">
     <?php if (function_exists('custom_breadcrumbs')) {
-              custom_breadcrumbs();
-      }
+      custom_breadcrumbs();
+    }
     ?></span>
 </section>
 <section class="w-full relative px-4 2xl:px-0 py-28 xl:py-40 2xl:py-44">
@@ -152,26 +156,73 @@ $info2 = get_field('info2', $post->ID);
           <div class="grid gap-[23px]">
             <h3 class="leading-[24px] font-bold pl-5">Postes Récents</h3>
 
-            <?php if ($poste_récent) : ?>
-            <a href="<?= $poste_récent->guid ?>" class="grid gap-[22px] text-sm text-gray-200 font-lato">
-              <div class="flex flex-row items-center justify-start py-0 pr-0 pl-5 gap-[18px]">
-                <img class="w-[70px] relative rounded-3xs h-[70px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dark-screen.png" />
+            <?php if ($prev_post) : ?>
+              <a href="<?= $prev_post->guid ?>" class="grid gap-[22px] text-sm text-gray-200 font-lato">
+                <div class="flex flex-row items-center justify-start py-0 pr-0 pl-5 gap-[18px]">
+                  <img class="w-[70px] relative rounded-3xs h-[70px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dark-screen.png" />
 
-                <div class="flex flex-col items-start justify-start gap-[7px]">
-                  <div class="flex flex-row items-center justify-start gap-[8px]">
-                    <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
+                  <div class="flex flex-col items-start justify-start gap-[7px]">
+                    <div class="flex flex-row items-center justify-start gap-[8px]">
+                      <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
 
-                    <span class="relative leading-[14px] mix-blend-normal !text-[#787878]">
-                      <?= $poste_récent->subtitle ?>
-                    </span>
+                      <span class="relative leading-[14px] mix-blend-normal !text-[#787878]">
+                        <?= $prev_post->subtitle ?>
+                      </span>
+                    </div>
+                    <h5 class="relative text-base leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
+                      <?= $prev_post->post_title ?>
+                    </h5>
                   </div>
-                  <h5 class="relative text-base leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
-                    <?= $poste_récent->post_title ?>
-                  </h5>
                 </div>
-              </div>
+              </a>
+            <?php endif; ?>
 
-              <div class="rounded-xl py-4 px-5 bg-tertialy flex flex-row items-center justify-start box-border gap-[18px]">
+            <?php if ($poste_récent) : ?>
+              <a href="<?= $poste_récent->guid ?>" class="grid gap-[22px] text-sm text-gray-200 font-lato">
+                <div class="rounded-xl py-4 px-5 bg-tertialy flex flex-row items-center justify-start box-border gap-[18px]">
+                  <img class="w-[70px] relative rounded-3xs h-[70px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dark-screen.png" />
+
+                  <div class="flex flex-col items-start justify-start gap-[7px]">
+                    <div class="flex flex-row items-center justify-start gap-[8px]">
+                      <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
+
+                      <span class="relative leading-[14px] mix-blend-normal !text-[#787878]">
+                        <?= $poste_récent->subtitle ?>
+                      </span>
+                    </div>
+                    <h5 class="relative text-base leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
+                      <?= $poste_récent->post_title ?>
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            <?php endif; ?>
+
+            <?php if ($next_post) : ?>
+              <a href="<?= $next_post->guid ?>" class="grid gap-[22px] text-sm text-gray-200 font-lato">
+                <div class="flex flex-row items-center justify-start py-0 pr-0 pl-5 gap-[18px]">
+                  <img class="w-[70px] relative rounded-3xs h-[70px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dark-screen.png" />
+
+                  <div class="flex flex-col items-start justify-start gap-[7px]">
+                    <div class="flex flex-row items-center justify-start gap-[8px]">
+                      <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
+
+                      <span class="relative leading-[14px] mix-blend-normal !text-[#787878]">
+                        <?= $next_post->subtitle ?>
+                      </span>
+                    </div>
+                    <h5 class="relative text-base leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
+                      <?= $next_post->post_title ?>
+                    </h5>
+                  </div>
+                </div>
+              </a>
+            <?php endif; ?>
+          </div>
+        </div>
+
+
+        <!-- <div class="rounded-xl py-4 px-5 bg-tertialy flex flex-row items-center justify-start box-border gap-[18px]">
                 <img class="w-[70px] relative rounded-3xs h-[70px] mix-blend-normal" alt="" src="<?= get_template_directory_uri() ?>/assets/images/__tests__/dark-screen.png" />
 
                 <div class="flex flex-col items-start justify-start gap-[7px]">
@@ -179,11 +230,11 @@ $info2 = get_field('info2', $post->ID);
                     <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
 
                     <div class="relative leading-[14px] mix-blend-normal !text-[#787878]">
-                      <?= $poste_récent->subtitle ?>
+                      <?= $post->subtitle ?>
                     </div>
                   </div>
                   <b class="relative text-sm leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
-                    <?= $poste_récent->post_title ?>
+                    <?= $post->post_title ?>
                   </b>
                 </div>
               </div>
@@ -196,18 +247,18 @@ $info2 = get_field('info2', $post->ID);
                     <img class="w-3.5 relative h-3.5" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/discount-primary-icon.svg" />
 
                     <span class="relative leading-[14px] mix-blend-normal !text-[#787878]">
-                      <?= $poste_récent->subtitle ?>
+                      <?= $next_post->subtitle ?>
                     </span>
                   </div>
                   <h5 class="relative text-base leading-[30px] font-ubuntu text-gray-300 mix-blend-normal">
-                    <?= $poste_récent->post_title ?>
+                    <?= $next_post->post_title ?>
                   </h5>
                 </div>
-              </div>
-            </a>
-            <?php endif; ?>
+              </div> -->
+        <!-- </a>
+            
           </div>
-        </div>
+        </div> -->
 
         <div class="rounded-xl bg-whitesmoke-200 py-11 px-8">
           <div class="grid gap-[19px]">

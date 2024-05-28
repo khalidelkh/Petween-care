@@ -313,6 +313,10 @@ button{
   bottom: 0px;
 }
 
+.\!top-\[50\%\]{
+  top: 50% !important;
+}
+
 .-bottom-\[20\%\]{
   bottom: -20%;
 }
@@ -423,10 +427,6 @@ button{
 
 .top-\[67px\]{
   top: 67px;
-}
-
-.\!top-\[50\%\]{
-  top: 50% !important;
 }
 
 .isolate{
@@ -597,6 +597,10 @@ button{
 
 .mt-3{
   margin-top: 0.75rem;
+}
+
+.mt-\[-5px\]{
+  margin-top: -5px;
 }
 
 .mt-\[-74px\]{
@@ -1996,10 +2000,6 @@ button{
 
 .gap-\[125px\]{
   gap: 125px;
-}
-
-.gap-\[129px\]{
-  gap: 129px;
 }
 
 .gap-\[13px\]{
@@ -4483,6 +4483,24 @@ nav.breadcrumbs span{
 .group:nth-child(even) .group-even\:text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 640px){
+  .max-sm\:ml-3{
+    margin-left: 0.75rem;
+  }
+
+  .max-sm\:ml-5{
+    margin-left: 1.25rem;
+  }
+
+  .max-sm\:mr-3{
+    margin-right: 0.75rem;
+  }
+
+  .max-sm\:max-w-\[345px\]{
+    max-width: 345px;
+  }
 }
 
 @media (min-width: 640px){

@@ -16,12 +16,12 @@ $all_posts = new WP_Query($args);
 <!-- * ----- ACTUALITÉS ----- * -->
 <section class="self-stretch h-[396px] flex flex-col items-center justify-center gap-[4px]  bg-cover bg-no-repeat bg-[top] text-left text-53xl-1 text-tertialy font-ubuntu" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-news.png');">
   <h1 class="m-0 relative text-41xl sm:text-inherit tracking-[-1.44px] leading-[86.48px] font-medium font-inherit mix-blend-normal">
-     ACTUALITÉS 
+    ACTUALITÉS
   </h1>
   <span class="relative text-2xl-5 tracking-[-0.43px] leading-[25.79px] font-dm-sans mix-blend-normal">
     <?php if (function_exists('custom_breadcrumbs')) {
-          custom_breadcrumbs();
-      }
+      custom_breadcrumbs();
+    }
     ?></span>
 </section>
 <!-- * ---- BLOG POSTS ----- * -->

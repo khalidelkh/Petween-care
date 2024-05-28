@@ -8,10 +8,10 @@ get_header();
     SOLUTIONS
   </h1>
   <h6 class="m-0 relative text-[21.5px] tracking-[-0.43px] leading-[25.79px] font-normal font-dm-sans mix-blend-normal">
-  <?php if (function_exists('custom_breadcrumbs')) {
-        custom_breadcrumbs();
+    <?php if (function_exists('custom_breadcrumbs')) {
+      custom_breadcrumbs();
     }
-  ?>
+    ?>
   </h6>
 </section>
 
@@ -262,8 +262,8 @@ get_header();
 
       <div class="flex flex-col items-center justify-start text-left text-31xl text-secondary font-ubuntu">
         <img class="max-w-[590px] max-h-[623px] w-full h-full object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/pet-treatments.png" />
-          
-        
+
+
         <!-- <div class="max-w-[348px] w-full min-h-[135px] flex flex-row items-center justify-center gap-[58px] bg-cover bg-no-repeat bg-[top] mt-[-74px]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-border-dashed.png');">
           <div class="relative tracking-[-1px] mix-blend-normal">
             <p class="m-0 font-bold">180</p>
@@ -289,13 +289,13 @@ get_header();
                 FREQUENTLY QUESTION
               </h6>
             </div>
-            <h2 class="m-0 relative text-[40px] sm:text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu mix-blend-normal">
+            <h2 class="m-0 relative text-[40px] sm:text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu mix-blend-normal ">
               Pourquoi <br />
               <span class="text-secondary">utiliser Petween Care </span>
               <span class="text-pet-primary">?</span>
             </h2>
           </div>
-          <p class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100">
+          <p class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100  ">
             Mauris vehicula sem sed mi semper, ut vestibulum elit. Cras
             varius elit maximus sodales Mauris vehicula sem sed mi semper,
             ut vestibulum elit. Cras varius elit maximus sodales bibendum.
@@ -352,7 +352,7 @@ get_header();
   </div>
 </section>
 <!-- * ---- Nos derniers articles ---- * -->
-<?php get_template_part('templates-sections/section-articles'); ?>
+<?php get_template_part('templates-sections/section-articles'); ?> 
 
 
 

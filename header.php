@@ -157,7 +157,7 @@
 
               <div
                 style="opacity: 0; pointer-events: none"
-                class="mobile-menu bg-secondary transition-all duration-200 ease-out flex flex-col justify-evenly items-center py-10 w-full h-[calc(100vh-167px)] left-0 z-50 right-0 absolute top-[167px] text-orange uppercase"
+                class="mt-[-5px] mobile-menu bg-secondary transition-all duration-200 ease-out flex flex-col justify-evenly items-center py-10 w-full h-[calc(100vh-167px)] left-0 z-50 right-0 absolute top-[167px] text-orange uppercase"
               >
                 <div class="relative mt-3 w-full max-w-xs mx-auto">
                   <div

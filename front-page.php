@@ -397,7 +397,7 @@ get_header();
             <div class="flex flex-col items-start justify-start gap-[25px]">
               <div class="flex flex-col items-start justify-start gap-[6px]">
                 <div
-                  class="flex flex-row items-center justify-start gap-[11px]"
+                  class="flex flex-row items-center justify-start gap-[11px] max-sm:ml-5"
                 >
                   <img
                     class="w-3.5 relative h-[13.1px] mix-blend-normal"
@@ -406,13 +406,13 @@ get_header();
                   />
 
                   <h6
-                    class="m-0 relative font-dm-sans font-medium text-inherit tracking-[2.8px] leading-[30px] font-inherit mix-blend-normal"
+                    class="m-0 relative font-dm-sans font-medium text-inherit tracking-[2.8px] leading-[30px] font-inherit mix-blend-normal "
                   >
                     FREQUENTLY QUESTION
                   </h6>
                 </div>
                 <h2
-                  class="m-0 relative text-[40px] sm:text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu mix-blend-normal"
+                  class="m-0 relative text-[40px] sm:text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu mix-blend-normal max-sm:ml-5"
                 >
                   Pourquoi <br />
                   <span class="text-secondary">utiliser Petween Care </span>
@@ -420,7 +420,7 @@ get_header();
                 </h2>
               </div>
               <p
-                class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100"
+                class="m-0 max-w-[488px] relative text-mini leading-[27px] font-dm-sans text-gray-100 max-sm:max-w-[345px] max-sm:ml-5"
               >
                 Mauris vehicula sem sed mi semper, ut vestibulum elit. Cras
                 varius elit maximus sodales Mauris vehicula sem sed mi semper,
@@ -431,7 +431,7 @@ get_header();
               </p>
             </div>
             <button
-              class="cursor-pointer [border:none] text-tertialy p-0 bg-pet-primary w-[165px] rounded-81xl h-[43px] flex flex-col items-center justify-center"
+              class="cursor-pointer [border:none] text-tertialy p-0 bg-pet-primary w-[165px] rounded-81xl h-[43px] flex flex-col items-center justify-center max-sm:ml-5"
             >
               COMMENÇER
             </button>
