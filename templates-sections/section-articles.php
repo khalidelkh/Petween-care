@@ -94,7 +94,7 @@
               <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary font-ubuntu absolute top-1/2 -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
             </div>
 
-            <div class="w-full px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">
+            <div class="w-full max-w-[370px] px-4 shadow-[0px_10px_60px_rgba(0,_0,_0,_0.1)] rounded-t-none rounded-b-xl bg-tertialy h-72 flex flex-col items-center justify-center">
               <div class="flex flex-col items-start justify-start gap-[36px]">
                 <div class="flex flex-col items-start justify-start gap-[4px]">
                   <div class="flex flex-row items-center justify-start gap-[8px]">
