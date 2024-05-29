@@ -24,11 +24,6 @@ $post_categories = get_the_category();
 // Poste Récents
 $poste_récent = get_post();
 
-
-// Poste informations
-$info1 = get_field('info1', $post->ID);
-$info2 = get_field('info2', $post->ID);
-
 // Next and Prev posts
 $next_post = get_next_post();
 $prev_post = get_previous_post();
@@ -143,9 +138,9 @@ $prev_post = get_previous_post();
               <a id="youtube-share" href="#" target="_blank">
                 <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="YouTube" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
               </a>
-           </div>
+            </div>
             <!-- <div class="flex flex-row items-start justify-start gap-[19px]" id="Demo"> -->
-              <!-- <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
+            <!-- <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
                 <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
               </a>
 
@@ -166,10 +161,15 @@ $prev_post = get_previous_post();
 
           <div class="flex flex-col sm:flex-row md:flex-col lg:flex-row items-start justify-start gap-[30px] text-3xl text-secondary font-ubuntu">
             <div class="flex-1 md:max-w-[370px] rounded-mini bg-whitesmoke-200 rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center">
-              <span class="max-w-[262px] relative leading-[36px] inline-block mix-blend-normal"><?= wp_strip_all_tags($info1) ?></span>
+              <?php if ($prev_post) : ?>
+                <a href="<?= $prev_post->guid ?>" class="max-w-[262px] !text-[rgb(56,81,112)] relative leading-[36px] inline-block mix-blend-normal"><?= $prev_post->post_title ?></a>
+              <?php endif; ?>
             </div>
             <div class="flex-1 md:max-w-[370px] rounded-mini bg-pet-primary rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center">
-              <span class="max-w-[262px] text-white relative leading-[36px] inline-block mix-blend-normal"><?= wp_strip_all_tags($info2) ?></span>
+              <?php if ($prev_post) : ?>
+                <a href="<?= $next_post->guid ?>" class="max-w-[262px] !text-white relative leading-[36px] inline-block mix-blend-normal"><?= $next_post->post_title ?></a>
+              <?php endif; ?>
+
             </div>
           </div>
         </div>
@@ -300,9 +300,20 @@ $prev_post = get_previous_post();
             <h6 class="leading-[24px] mx-4 text-inherit font-bold">
               Categories
             </h6>
-            <?php
-            if (!empty($post_categories)) :
-              foreach ($post_categories as $category) : ?>
+            <?php if (!empty($post_categories)) : ?>
+              <?php foreach ($post_categories as $category) : ?>
+                <ul class="w-full flex flex-col items-start justify-start gap-[16px] text-base !text-gray-200 font-dm-sans">
+                  <li class="flex w-full flex-row hover:bg-tertialy hover:text-black rounded-lg py-2 items-start justify-start px-5">
+                    <a href="<?= get_category_link($category->term_id); ?>" class="relative leading-[24px] font-medium mix-blend-normal !text-gray-200">
+                      <?= esc_html($category->name); ?>
+                    </a>
+                  </li>
+                </ul>
+              <?php endforeach; ?>
+            <?php endif; ?>
+            <!-- <?php
+                  if (!empty($post_categories)) :
+                    foreach ($post_categories as $category) : ?>
                 <ul class="w-full flex flex-col items-start justify-start gap-[16px] text-base !text-gray-200 font-dm-sans">
                   <li class="flex w-full flex-row hover:bg-tertialy hover:text-black rounded-lg py-2 items-start justify-start px-5 ">
                     <a class="relative leading-[24px] font-medium mix-blend-normal !text-gray-200"><?= esc_html($category->name) ?></a>
@@ -310,8 +321,8 @@ $prev_post = get_previous_post();
                 </ul>
 
             <?php endforeach;
-            endif;
-            ?>
+                  endif;
+            ?> -->
           </div>
         </div>
 

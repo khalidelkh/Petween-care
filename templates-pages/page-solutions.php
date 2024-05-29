@@ -98,7 +98,7 @@ get_header();
     </div>
 
     <!-- * ---- Alimentation & budget ----- * -->
-    <div class="relative flex flex-col lg:flex-row items-center justify-start w-full gap-[67px] text-left text-31xl text-secondary font-ubuntu">
+    <div class="relative flex flex-col-reverse lg:flex-row items-center justify-start w-full gap-[67px] text-left text-31xl text-secondary font-ubuntu">
       <img class="absolute -right-[10%] top-0 h-32" src="<?= get_template_directory_uri() ?>/assets/images/icons/dog-bone.png" alt="" />
       <div class="flex flex-col items-center justify-start">
         <img class="w-full h-full max-w-[600px] max-h-[623px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/pet-food-image.png" />
@@ -251,7 +251,7 @@ get_header();
     </div>
 
     <!-- * ---- Soins Quotidiens ----- * -->
-    <div class="relative flex flex-col lg:flex-row items-center justify-start w-full gap-[67px] text-left text-31xl text-secondary font-ubuntu">
+    <div class="relative flex flex-col-reverse lg:flex-row items-center justify-start w-full gap-[67px] text-left text-31xl text-secondary font-ubuntu">
       <img class="absolute -right-[10%] top-0 h-32" src="<?= get_template_directory_uri() ?>/assets/images/icons/dog-bone.png" alt="" />
       <div class="flex flex-col items-center justify-start">
         <img class="w-full h-full max-w-[600px] max-h-[623px] object-cover" alt="" src="<?= get_template_directory_uri() ?>/assets/images/pages/solutions/Frame 1000005023.png" />
