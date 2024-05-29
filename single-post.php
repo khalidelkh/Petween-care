@@ -109,8 +109,43 @@ $prev_post = get_previous_post();
 
               </div>
             </div>
-            <div class="flex flex-row items-start justify-start gap-[19px]">
-              <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
+            <!-- <div id="social-sharing" class="flex flex-row items-start justify-start gap-[19px]">
+              <a id="facebook-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Facebook" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
+              </a>
+
+              <a id="instagram-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Instagram" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
+              </a>
+
+              <a id="tiktok-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="TikTok" src="<?= get_template_directory_uri() ?>/assets/images/tiktok.svg" />
+              </a>
+
+              <a id="youtube-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="YouTube" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
+              </a>
+            </div> -->
+
+            <div id="social-sharing" class="flex flex-row items-start justify-start gap-[19px]">
+              <a id="facebook-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Facebook" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
+              </a>
+
+              <a id="instagram-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Instagram" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
+              </a>
+
+              <a id="tiktok-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="TikTok" src="<?= get_template_directory_uri() ?>/assets/images/ticktok.svg" />
+              </a>
+
+              <a id="youtube-share" href="#" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="YouTube" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
+              </a>
+           </div>
+            <!-- <div class="flex flex-row items-start justify-start gap-[19px]" id="Demo"> -->
+              <!-- <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
                 <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
               </a>
 
@@ -124,8 +159,8 @@ $prev_post = get_previous_post();
 
               <a href="#" <?= get_theme_mod('tiktok_link', '') ?>">
                 <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
-              </a>
-            </div>
+              </a> -->
+            <!-- </div> -->
 
           </div>
 

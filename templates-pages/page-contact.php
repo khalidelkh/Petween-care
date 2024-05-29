@@ -26,7 +26,7 @@ get_header();
       </h6>
     </div>
     <h2 class="m-0 relative text-31xl tracking-[-1px] leading-[60px] font-medium font-ubuntu text-secondary text-left mix-blend-normal">
-      N'hésitez pas à nous contactez
+    N'hésitez pas à nous contacter
     </h2>
   </div>
   <!-- <?= do_shortcode('[contact-form-7 id="32d3d71" title="Contact form"]') ?> -->

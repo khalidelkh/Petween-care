@@ -261,7 +261,7 @@ get_header();
             class="flex flex-row flex-wrap items-start justify-center gap-[30px]"
           >
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
+              class="group w-[270px] h-[334px] flex flex-row items-center justify-center bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png')] hover:bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png')]  bg-cover bg-no-repeat bg-[top]"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -275,13 +275,13 @@ get_header();
                 </div>
                 <div class="flex flex-col items-start justify-start gap-[19px]">
                   <h3
-                    class="m-0 relative text-inherit tracking-[-0.48px] leading-[28.8px] font-bold font-inherit mix-blend-normal"
+                    class="m-0 relative text-inherit tracking-[-0.48px] leading-[28.8px] font-bold font-inherit mix-blend-normal "
                   >
-                    <p class="m-0">Sa santé</p>
-                    <p class="m-0">et son poids</p>
+                    <p class="m-0 text-black group-hover:text-white">Sa santé</p>
+                    <p class="m-0 text-black group-hover:text-white">et son poids</p>
                   </h3>
                   <p
-                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
+                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 group-hover:text-white [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
                   >
                     Suivez ses petits bobos et sa courbe de poids.
                   </p>
@@ -290,7 +290,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top] text-tertialy" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png');"
+              class=" group w-[270px] h-[334px] flex flex-row items-center justify-center bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png')] hover:bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png')] bg-cover bg-no-repeat bg-[top] text-tertialy " 
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -306,11 +306,11 @@ get_header();
                   <h2
                     class="m-0 relative text-inherit tracking-[-0.48px] leading-[28.8px] font-bold font-inherit mix-blend-normal"
                   >
-                    <p class="m-0">Alimantation</p>
-                    <p class="m-0">et budget</p>
+                    <p class="m-0 text-black group-hover:text-white">Alimantation</p>
+                    <p class="m-0 text-black group-hover:text-white">et budget</p>
                   </h2>
                   <p
-                    class="m-0 w-[204px] relative text-mini leading-[27px] font-dm-sans [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
+                    class="m-0 w-[204px] relative text-mini leading-[27px] text-gray-100 group-hover:text-white  font-dm-sans [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
                   >
                     Optimiser son budget commence par comprendre ses dépenses.
                   </p>
@@ -319,7 +319,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
+              class="group w-[270px] h-[334px] flex flex-row items-center justify-center bg-cover bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png')] hover:bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png')] bg-no-repeat bg-[top]" 
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -335,11 +335,11 @@ get_header();
                   <h3
                     class="m-0 relative text-inherit tracking-[-0.48px] leading-[28.8px] font-bold font-inherit mix-blend-normal"
                   >
-                    <p class="m-0">Ses traitements</p>
-                    <p class="m-0">et bilans</p>
+                    <p class="m-0 text-black group-hover:text-white">Ses traitements</p>
+                    <p class="m-0 text-black group-hover:text-white">et bilans</p>
                   </h3>
                   <p
-                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
+                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 group-hover:text-white [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
                   >
                     Terminé les documents volants, notez, archivez.
                   </p>
@@ -348,7 +348,7 @@ get_header();
             </div>
 
             <div
-              class="w-[270px] h-[334px] flex flex-row items-center justify-center  bg-cover bg-no-repeat bg-[top]" style="background-image: url('https://petween-care.developpement.top/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');"
+              class="group w-[270px] h-[334px] flex flex-row items-center justify-center bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png')] hover:bg-[url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png')]  bg-cover bg-no-repeat bg-[top]"
             >
               <div class="flex flex-col items-start justify-start gap-[23px]">
                 <div
@@ -364,11 +364,11 @@ get_header();
                   <h3
                     class="m-0 relative text-inherit tracking-[-0.48px] leading-[28.8px] font-bold font-inherit mix-blend-normal"
                   >
-                    <p class="m-0">Ses soins</p>
-                    <p class="m-0">quotidiens</p>
+                    <p class="m-0 text-black group-hover:text-white">Ses soins</p>
+                    <p class="m-0 text-black group-hover:text-white">quotidiens</p>
                   </h3>
                   <p
-                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
+                    class="m-0 w-[190px] relative text-mini leading-[27px] font-dm-sans text-gray-100 group-hover:text-white [display:-webkit-inline-box] overflow-hidden text-ellipsis [-webkit-line-clamp:2] [-webkit-box-orient:vertical] mix-blend-normal"
                   >
                     Organisez les soins, vermifuges et toilettage.
                   </p>

@@ -2796,6 +2796,10 @@ button{
   background-color: rgb(241 243 245 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/wp-content\/themes\/petween-care\/assets\/images\/bgs\/bg-paws-primary\.png\'\)\]{
+  background-image: url('/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary.png');
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -4424,6 +4428,10 @@ nav.breadcrumbs span{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[url\(\'\/wp-content\/themes\/petween-care\/assets\/images\/bgs\/bg-paws-primary-2\.png\'\)\]:hover{
+  background-image: url('/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary-2.png');
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -4461,22 +4469,7 @@ nav.breadcrumbs span{
   text-align: center;
 }
 
-.group:nth-child(odd) .group-odd\:bg-seashell{
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 246 241 / var(--tw-bg-opacity));
-}
-
-.group:nth-child(odd) .group-odd\:text-secondary{
-  --tw-text-opacity: 1;
-  color: rgb(56 81 112 / var(--tw-text-opacity));
-}
-
-.group:nth-child(even) .group-even\:bg-pet-primary{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 157 11 / var(--tw-bg-opacity));
-}
-
-.group:nth-child(even) .group-even\:text-white{
+.group:hover .group-hover\:text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

@@ -51,3 +51,39 @@ faqButtons.forEach((button) => {
   });
 });
 
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   var urlShare = encodeURIComponent(window.location.href);
+//   var title = encodeURIComponent(document.title);
+//   var descriptionMeta = document.querySelector('meta[name="description"]');
+//   var description = descriptionMeta ? encodeURIComponent(descriptionMeta.getAttribute('content')) : '';
+
+//   // URL de partage pour Facebook
+//   var facebookShare = document.getElementById('facebook-share');
+//   if (facebookShare) {
+//     facebookShare.href = `https://www.facebook.com/sharer/sharer.php?u=${urlShare}&quote=${title}`;
+//   }
+
+//   // URL de partage pour Instagram (note : Instagram ne permet pas le partage via URL, mais on pourrait utiliser d'autres moyens)
+//   var instagramShare = document.getElementById('instagram-share');
+//   if (instagramShare) {
+//     instagramShare.href = `https://www.instagram.com/?url=${urlShare}`;
+//   }
+
+//   // URL de partage pour TikTok (note : TikTok n'a pas de URL de partage standard, ce lien pourrait être modifié selon le comportement désiré)
+//   var tiktokShare = document.getElementById('tiktok-share');
+//   if (tiktokShare) {
+//     tiktokShare.href = `https://www.tiktok.com/?url=${urlShare}`;
+//   }
+
+//   // URL de partage pour YouTube (note : YouTube n'a pas de URL de partage direct, ce lien pourrait être modifié selon le comportement désiré)
+//   var youtubeShare = document.getElementById('youtube-share');
+//   if (youtubeShare) {
+//     youtubeShare.href = `https://www.youtube.com/results?search_query=${title}`;
+//   }
+// });
+// $('#Demo').socialSharingPlugin({
+//   urlShare: window.location.href,
+//   description: $('meta[name=description]').attr('content'),
+//   title: $('title').text()
+// })

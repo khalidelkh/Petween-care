@@ -56,7 +56,7 @@ $all_posts = new WP_Query($args);
           // Post Subtitle
           $subtitle = get_field('subtitle', $post->ID);
         ?>
-          <div class="group flex flex-col items-start justify-start">
+          <div class=" flex flex-col items-start justify-start">
             <div class="overflow-hidden max-w-[370px] h-64 max-h-[250px] relative">
 
               <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $featured_img_url ?>" />
@@ -82,8 +82,8 @@ $all_posts = new WP_Query($args);
                   <p class="m-0 max-w-[310px] relative leading-[27px]">
                     <?= wp_strip_all_tags($post->post_content) ?>
                   </p>
-                  <a href="<?= get_the_permalink() ?>" class="cursor-pointer p-0 group-odd:bg-seashell group-odd:text-secondary group-even:bg-pet-primary group-even:text-white w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
-                    <span class="relative text-sm leading-[24px] uppercase font-medium font-dm-sans text-left mix-blend-normal">
+                  <a href="<?= get_the_permalink() ?>" class="cursor-pointer p-0 bg-pet-primary text-white w-[153px] rounded-81xl h-[43px] flex flex-col items-center justify-center">
+                    <span class="relative text-sm leading-[24px] uppercase bg-pet-primary text-white font-medium font-dm-sans text-left mix-blend-normal">
                       Lire Plus
                     </span>
                   </a>

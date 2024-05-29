@@ -134,8 +134,8 @@
                     />
                   </div>
                   <b
-                    class="relative text-sm leading-[24px] font-quicksand text-tertialy text-left mix-blend-normal"
-                    >CONECTION</b
+                    class="relative text-sm leading-[24px] uppercase font-quicksand text-tertialy text-left mix-blend-normal"
+                    >Connexion</b
                   >
               </a>
               </div>
@@ -188,8 +188,8 @@
                     />
                   </div>
                   <b
-                    class="relative text-sm leading-[24px] font-quicksand text-tertialy text-left mix-blend-normal"
-                    >CONECTION</b
+                    class="relative text-sm leading-[24px] uppercase font-quicksand text-tertialy text-left mix-blend-normal"
+                    >Connexion</b
                   >
                </a>
               </div>

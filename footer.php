@@ -98,7 +98,7 @@
                 <h5
                   class="m-0 relative text-inherit tracking-[-0.4px] leading-[24px] font-medium font-inherit mix-blend-normal"
                 >
-                  Liens utils
+                  Liens Utiles
                 </h5>
                 <?php
               wp_nav_menu(array(
