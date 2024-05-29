@@ -2796,8 +2796,8 @@ button{
   background-color: rgb(241 243 245 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/wp-content\/themes\/petween-care\/assets\/images\/bgs\/bg-paws-primary\.png\'\)\]{
-  background-image: url('/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary.png');
+.bg-\[url\(\'\/wp-content\/themes\/petween-care-theme\/assets\/images\/bgs\/bg-paws-primary\.png\'\)\]{
+  background-image: url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary.png');
 }
 
 .decoration-slice{
@@ -4428,8 +4428,8 @@ nav.breadcrumbs span{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[url\(\'\/wp-content\/themes\/petween-care\/assets\/images\/bgs\/bg-paws-primary-2\.png\'\)\]:hover{
-  background-image: url('/wp-content/themes/petween-care/assets/images/bgs/bg-paws-primary-2.png');
+.hover\:bg-\[url\(\'\/wp-content\/themes\/petween-care-theme\/assets\/images\/bgs\/bg-paws-primary-2\.png\'\)\]:hover{
+  background-image: url('/wp-content/themes/petween-care-theme/assets/images/bgs/bg-paws-primary-2.png');
 }
 
 .hover\:font-bold:hover{
