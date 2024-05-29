@@ -1824,12 +1824,12 @@ button{
   place-items: end;
 }
 
-.place-items-center{
-  place-items: center;
-}
-
 .\!place-items-center{
   place-items: center !important;
+}
+
+.place-items-center{
+  place-items: center;
 }
 
 .place-items-baseline{
@@ -4492,10 +4492,6 @@ nav.breadcrumbs span{
 
   .max-sm\:mr-3{
     margin-right: 0.75rem;
-  }
-
-  .max-sm\:max-w-\[350px\]{
-    max-width: 350px;
   }
 }
 
