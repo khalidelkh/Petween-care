@@ -59,7 +59,7 @@ $all_posts = new WP_Query($args);
           <div class=" flex flex-col items-start justify-start">
             <div class="overflow-hidden max-w-[370px] h-64 max-h-[250px] relative">
 
-              <img class="w-full h-full object-cover rounded-t-xl" alt="" src="<?= $featured_img_url ?>" />
+              <img class="w-[400px] h-full object-cover rounded-t-xl" alt="" src="<?= $featured_img_url ?>" />
 
               <span style="clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%)" class="text-sm px-10 py-2 -rotate-90 text-white bg-pet-primary absolute top-1/2 font-ubuntu -translate-y-1/2 left-4 -translate-x-1/2 p-2"><?= $formatted_post_date ?></span>
             </div>

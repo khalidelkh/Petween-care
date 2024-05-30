@@ -94,13 +94,16 @@ $prev_post = get_previous_post();
             <div class="flex flex-row items-center justify-start gap-[17px]">
               <b class="relative leading-[19.2px] font-ubuntu mix-blend-normal">Tags</b>
               <div class="flex flex-row items-start justify-start gap-[10px] text-xs text-tertialy font-dm-sans">
-                <?php if (!empty($post_tags)) :
-                  foreach ($post_tags as $tag) : ?>
+              <?php if (!empty($post_tags)) : ?>
+                <?php foreach ($post_tags as $tag) : ?>
                     <div class="rounded-81xl px-5 bg-secondary h-[39px] flex flex-col items-center justify-center">
-                      <?= esc_html($tag->name) ?>
+                        <a href="<?= esc_url(get_tag_link($tag->term_id)); ?>" class="!text-white">
+                            <?= esc_html($tag->name) ?>
+                        </a>
                     </div>
-                <?php endforeach;
-                endif; ?>
+                <?php endforeach; ?>
+            <?php endif; ?>
+
 
               </div>
             </div>
@@ -304,7 +307,7 @@ $prev_post = get_previous_post();
               <?php foreach ($post_categories as $category) : ?>
                 <ul class="w-full flex flex-col items-start justify-start gap-[16px] text-base !text-gray-200 font-dm-sans">
                   <li class="flex w-full flex-row hover:bg-tertialy hover:text-black rounded-lg py-2 items-start justify-start px-5">
-                    <a href="<?= get_category_link($category->term_id); ?>" class="relative leading-[24px] font-medium mix-blend-normal !text-gray-200">
+                    <a href="<?= get_category_link($category->term_id); ?>" class="relative leading-[24px]  font-medium mix-blend-normal !text-gray-200">
                       <?= esc_html($category->name); ?>
                     </a>
                   </li>
@@ -331,15 +334,24 @@ $prev_post = get_previous_post();
             Tags
           </h6>
           <div class="flex flex-row flex-wrap items-start justify-start gap-[10px] text-xs text-gray-200">
+          <?php if (!empty($post_tags)) : ?>
+                <?php foreach ($post_tags as $tag) : ?>
+                    <div class="rounded-81xl bg-tertialy flex flex-col items-center justify-center px-6 py-2 box-border">
+                        <a href="<?= esc_url(get_tag_link($tag->term_id)); ?>" class="relative text-sm font-bold leading-[24px] uppercase mix-blend-normal !text-gray-200 ">
+                            <?= esc_html($tag->name) ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
+          <?php endif; ?>
 
-            <?php if (!empty($post_tags)) :
+            <!-- <?php if (!empty($post_tags)) :
               foreach ($post_tags as $tag) : ?>
                 <div class="rounded-81xl bg-tertialy flex flex-col items-center justify-center px-6 py-2 box-border">
                   <span class="relative text-sm font-bold leading-[24px] uppercase mix-blend-normal">
                     <?= esc_html($tag->name) ?></span>
                 </div>
             <?php endforeach;
-            endif; ?>
+            endif; ?> -->
           </div>
         </div>
       </div>
