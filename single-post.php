@@ -118,7 +118,7 @@ $prev_post = get_previous_post();
               <a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" target="_blank">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]"  src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (8).svg" /> 
               </a>
-              <a href="https://www.linkden.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank">
               <img class="w-[40.1px] rounded-81xl h-[40.1px]"  src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (6).svg" /> 
               </a> 
            </div> 
