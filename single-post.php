@@ -107,58 +107,21 @@ $prev_post = get_previous_post();
 
               </div>
             </div>
-            <!-- <div id="social-sharing" class="flex flex-row items-start justify-start gap-[19px]">
-              <a id="facebook-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Facebook" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
+            <div class="flex flex-row items-start justify-start gap-[19px]"> 
+             <a href="https://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>" target="_blank">
+                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (9).svg" />
+              </a>
+              <a href="https://api.whatsapp.com/send?text=<?php echo get_permalink(); ?>" target="_blank">
+              <img class="w-[40.1px] rounded-81xl h-[40.1px]"  src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (7).svg" />
               </a>
 
-              <a id="instagram-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Instagram" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
+              <a href="https://twitter.com/intent/tweet?url=<?php echo get_permalink(); ?>" target="_blank">
+              <img class="w-[40.1px] rounded-81xl h-[40.1px]"  src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (8).svg" /> 
               </a>
-
-              <a id="tiktok-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="TikTok" src="<?= get_template_directory_uri() ?>/assets/images/tiktok.svg" />
-              </a>
-
-              <a id="youtube-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="YouTube" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
-              </a>
-            </div> -->
-
-            <div id="social-sharing" class="flex flex-row items-start justify-start gap-[19px]">
-              <a id="facebook-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Facebook" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
-              </a>
-
-              <a id="instagram-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="Instagram" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
-              </a>
-
-              <a id="tiktok-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="TikTok" src="<?= get_template_directory_uri() ?>/assets/images/ticktok.svg" />
-              </a>
-
-              <a id="youtube-share" href="#" target="_blank">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="YouTube" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
-              </a>
-            </div>
-            <!-- <div class="flex flex-row items-start justify-start gap-[19px]" id="Demo"> -->
-            <!-- <a href="#" <?= get_theme_mod('facebook_link', '') ?>">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/facebook.svg" />
-              </a>
-
-              <a href="#" <?= get_theme_mod('instagram_link', '') ?>">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/instagram.svg" />
-              </a>
-
-              <a href="#" <?= get_theme_mod('tiktok_link', '') ?>">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/ticktok.svg" />
-              </a>
-
-              <a href="#" <?= get_theme_mod('tiktok_link', '') ?>">
-                <img class="w-[40.1px] rounded-81xl h-[40.1px]" alt="" src="<?= get_template_directory_uri() ?>/assets/images/youtube.svg" />
-              </a> -->
-            <!-- </div> -->
+              <a href="https://www.linkden.com/shareArticle?mini=true&url=<?php echo get_permalink(); ?>" target="_blank">
+              <img class="w-[40.1px] rounded-81xl h-[40.1px]"  src="<?= get_template_directory_uri() ?>/assets/images/icons/svgviewer-output (6).svg" /> 
+              </a> 
+           </div> 
 
           </div>
 

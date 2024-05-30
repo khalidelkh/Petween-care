@@ -1776,6 +1776,10 @@ button{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-5{
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1922,10 +1926,6 @@ button{
 
 .justify-start{
   justify-content: flex-start;
-}
-
-.\!justify-start{
-  justify-content: flex-start !important;
 }
 
 .justify-end{
