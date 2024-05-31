@@ -158,9 +158,9 @@
 
               <div
                 style="opacity: 0; pointer-events: none"
-                class="mt-[-5px] mobile-menu bg-secondary transition-all duration-200 ease-out flex flex-col justify-evenly items-center py-10 w-full h-[calc(100vh-167px)] left-0 z-50 right-0 absolute top-[167px] text-orange uppercase"
+                class="mt-[-5px] mobile-menu bg-secondary transition-all duration-200 ease-out flex flex-col justify-evenly items-center pb-8 w-full h-[calc(100vh-167px)] left-0 z-50 right-0 absolute top-[167px] text-orange uppercase"
               >
-                <div class="relative mt-3 w-full max-w-xs mx-auto">
+                <div class="relative  w-full max-w-xs mx-auto">
                   <div
                     class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
                   >
@@ -177,7 +177,7 @@
               ));
               ?>
                 <a href="<?= get_theme_mod('conection_link', '') ?>"
-                 class="cursor-pointer [border:none] py-0 pr-0 pl-1 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
+                 class="cursor-pointer [border:none] py-0 pr-0 pl-1 mb-5 bg-pet-primary w-[185px] rounded-81xl h-[43px] flex flex-row items-center justify-start box-border gap-[24px]"
                 >
                   <div
                     class="w-[35px] rounded-81xl bg-tertialy h-[35px] flex flex-row items-center justify-center"

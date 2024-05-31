@@ -126,12 +126,12 @@ $prev_post = get_previous_post();
           </div>
 
           <div class="flex flex-col sm:flex-row md:flex-col lg:flex-row items-start justify-start gap-[30px] text-3xl text-secondary font-ubuntu">
-            <div class="flex-1 md:max-w-[370px] rounded-mini bg-whitesmoke-200 rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center">
+            <div class="flex-1 md:max-w-[370px] rounded-mini bg-whitesmoke-200 rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center max-sm:w-full">
               <?php if ($prev_post) : ?>
                 <a href="<?= $prev_post->guid ?>" class="max-w-[262px] !text-[rgb(56,81,112)] relative leading-[36px] inline-block mix-blend-normal"><?= $prev_post->post_title ?></a>
               <?php endif; ?>
             </div>
-            <div class="flex-1 md:max-w-[370px] rounded-mini bg-pet-primary rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center">
+            <div class="flex-1 md:max-w-[370px] rounded-mini bg-pet-primary rounded-lg p-5 xl:p-12 h-[177px] flex flex-col items-center justify-center max-sm:w-full">
               <?php if ($prev_post) : ?>
                 <a href="<?= $next_post->guid ?>" class="max-w-[262px] !text-white relative leading-[36px] inline-block mix-blend-normal"><?= $next_post->post_title ?></a>
               <?php endif; ?>
