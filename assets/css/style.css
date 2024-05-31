@@ -4269,7 +4269,7 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
   justify-content: center !important;
 }
 
-textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+textarea.wpcf7-form-control.wpcf7-textarea {
   width: 575px !important;
   outline: none !important;
   border: none !important;
@@ -4328,7 +4328,7 @@ nav.breadcrumbs span{
 }
 
 @media screen and (max-width: 768px){
-  textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
+  textarea.wpcf7-form-control.wpcf7-textarea {
     width:100% !important;
   }
 
@@ -4342,10 +4342,6 @@ nav.breadcrumbs span{
 
   .mc4wp-form-fields {
     width: 100% !important;
-  }
-
-  textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
-    width:100%;
   }
 
   input.wpcf7-form-control.wpcf7-email.wpcf7-text.wpcf7-validates-as-email {
@@ -4401,6 +4397,10 @@ nav.breadcrumbs span{
   align-items: center;
   justify-content: center;
   margin-bottom:50px;
+}
+
+.mc4wp-alert.mc4wp-success {
+  max-width:580px;
 }
 
 @media (min-width: 640px){
@@ -4803,6 +4803,5 @@ nav.breadcrumbs span{
     }
   }
 }
-
 
 
